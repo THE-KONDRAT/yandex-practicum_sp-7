@@ -1,0 +1,90 @@
+Dial Home Devices, often shortened to DHDs and known as Clavis to the Ancients, are large, pedestal-shaped computers placed on almost every planet in the Stargate Network. 
+
+DHDs establish a wireless link with the nearby Stargate and act as a control device and power source, allowing any intelligent species to dial it without having to rotate the gate manually or develop their own computer interface. Similar to a telephone dial or touch pad (although much larger), the DHD is used to specify which other Stargate to connect to when opening a gate or wormhole to another location. The external symbols on the DHD represent Star Constellations, surrounding the central activation button. 
+
+The DHDs are composed of control crystals, used to store memory and information. Despite the apparent simplicity of function, the DHD performs incredibly complex calculations within seconds every time it is dialed to account for stellar drift and other potential problems, assisted by information from its automatic update command, calculations that take Stargate Command computers around a month to complete. 
+
+Overview
+
+DHDs are traditionally pedestal-shaped with a round inclined control panel on top consisting of two concentric circles containing 19 "keys" each. Despite Milky Way Stargates containing 39 glyphs, Milky Way DHDs contain only 38 glyphs (two rings containing 19 glyphs each). The reason for this is that each (Milky Way) Stargate has an additional glyph, unique and as a representation of itself, that does not appear on the DHD. Each of these "keys" contain a glyph corresponding to an analogous glyph on the rim of the Stargate. After all glyphs in an address are entered, the central 'hemisphere' is pressed, which allows for the Stargate to engage. In the Milky Way, activating a Stargate using a DHD also serves to allow for "quick dialing" - activating the gate without waiting for the inner ring to spin. 
+
+The DHD also provides power for the Stargate and appears to have a complex programming interface, of which most is not normally needed by the operator. However, although the DHD allows addresses to be entered, it requires the users to be aware of what address they intend to use in the first place (The Destiny DHD being the only DHD that allows users to select gate addresses), with the sheer quantity of possible dialing combinations meaning that a user without an address to use could dial for months without determining a successful set of coordinates.
+
+The control crystals housed underneath the "key pad" of a Milky Way-style DHD.
+Apparently, originally every Stargate had its own DHD, located directly in front of the Stargate. However, over time some DHDs have been damaged or lost. This frequently presents a difficulty for Stargate travelers, as it is still possible to dial in to a Stargate that lacks a DHD, but dialing out again is much more difficult. Several times, SG teams became stranded on worlds without functioning DHDs, having to improvise lightning rods or other such power sources and manually dialing the Stargate's symbol ring on models which allow this. One of the primary functions of the MALP that is sent to new Stargates in advance of any SG team is to confirm the presence of a functioning DHD. 
+
+According to Dr. Radek Zelenka, dialing an address leaves a small imprint on the control crystals of the DHD, and about fifty addresses can be recovered from a DHD using the proper equipment. However, this gives no indication of the order in which the addresses were dialed, and no guarantee can be made as to the accuracy of the recovered addresses. 
+
+Milky Way DHDs
+
+A typical DHD-Stargate setup on a Milky Way planet.
+For Milky Way-style Stargates, the central hemisphere is orange in color, as are the glyph keys when pressed. The keys themselves have the same matte gray finish as the rest of the DHD.
+
+A Stargate dialer.
+The Goa'uld possessed portable DHDs that contained enough power to dial the Stargate they were placed upon.  Teal'c used one of these to dial the Stargate after main power was lost in an alternate timeline. 
+
+Earth's DHDs
+
+ 
+ 
+The Beta Gate's DHD in Antarctica.
+Earth's Alpha Gate was missing its DHD when first discovered, requiring the United States Air Force to develop the dialing computer as a replacement. This resulted in Stargate misbehavior from time to time, since most of its detailed interfaces and safety features could not be reverse-engineered.
+
+When SG-1 was forced to return to Earth under fire, a freak accident caused the wormhole to shift to the second Stargate on Earth in Antarctica. This "second" gate — the Beta Gate — was Earth's original Stargate, used by the Ancients before the Goa'uld had even discovered the planet. This Stargate's DHD was still with it when it was discovered, and was used briefly by National Intelligence Department operatives to conduct covert technology raids through the backup Stargate. However, it has since run out of power and ceased to function. The Antarctic gate and DHD are thought to have been the oldest known; at 50 million years old, they are possibly the first that were constructed by the Ancients. 
+
+The Alpha Gate and its DHD as used by Russia.
+The Giza DHD had not been destroyed, however, merely lost. Nazi Germany removed it from Egypt during World War II, and the Soviet Union subsequently captured it at the end of the war. It passed into the possession of the Russian Federation after the Soviet Union's fall. After the Russians recovered the Alpha Gate from the Pacific Ocean, when it was lost in the crash of Thor's starship Biliskner, they set up their own Stargate exploration program using the DHD to secretly "override" the backup Stargate the SGC was using whenever Russian SG teams were scheduled to dial back to Earth. 
+
+The American Stargate program eventually suffered a mishap that their makeshift dialing interface was unable to correct, when Teal'c became "trapped" in their Stargate's data buffer after the wormhole connection was severed when a ship destroyed the DHD which was supplying power to the gate that was connected to the Earth Stargate. At this time, Dr. Rodney McKay also states that the SGC's dialing computer ignores 220 of the 400 feedback signals the Stargate can emit during any given dialing sequence. The Americans eventually made a bargain to exchange some of the information their more-successful Stargate program had gained for the Russian DHD, which was able to retrieve Teal'c alive. The DHD was destroyed in the process, however, leaving Earth with no remaining known DHDs. 
+
+Pegasus DHDs
+
+A standard Pegasus galaxy DHD.
+In the Pegasus galaxy, conventional DHD pedestals are found in most worlds with Stargates, with mainly cosmetic differences from DHDs in the Milky Way — present because the Pegasus DHDs are newer, and obviously feature a different coordinate system specific to that galaxy.
+
+The primary differences are that both the keys and the central hemisphere in the Pegasus galaxy are blue, the sound produced by dialing a Pegasus Gate is more of a buzzing rather than a swishing. In addition, the DHD keys are made of a reflective, glass-like material. 
+
+Pegasus DHDs are capable of being reconfigured to dial planets in the Milky Way if the Stargate that it's attached to is present in that galaxy. 
+
+Atlantis DHD
+
+ 
+The DHD panel for Atlantis' Gate.
+The Atlantis DHD is more similar to Earth's dialing computer than an actual DHD, and looks more like a set of crystal panels. However, it appears to have extra features, like blocking out certain gate addresses. A similar DHD is also used on Puddle Jumpers. 
+
+Consequently, the Atlantis DHD also has an extra control crystal allowing the dialing of an eighth chevron during the dialing sequence and is the only DHD in the Pegasus galaxy capable of dialing other galaxies. This was probably a security measure set up by the Ancients. 
+
+Wraith DHD
+
+The Wraith also travel through Stargates in small spacecraft called Wraith Darts and have some means of remote-dialing them in a manner similar to Ancient ships. 
+
+Puddle Jumper DHD
+
+A Milky Way Puddle Jumper DHD.
+The Puddle Jumper's DHDs are very similar to the Atlantis DHD, with the exception of the extra control crystal. The ship's DHD is used for travel through an orbital Stargate, in conjunction with a Stargate power node since orbital Stargates have no constant DHD. 
+
+These DHDs seem to be tailored to their respective galaxies, since the Puddle Jumpers from Atlantis have the Pegasus set of glyphs, whereas the Puddle Jumper found on Arkhan's World had the Milky Way set. However, it may be that the ships possess a sort of 'universal' DHD that tailors itself to the gate system in question, as a Puddle Jumper from Atlantis has been seen activating a gate from the Milky Way at the McKay/Carter Intergalactic Gate Bridge. 
+
+The DHDs on Puddle Jumpers are shown to work at a considerable range. In an alternate timeline, the usage of the Time Jumper's DHD at Stargate Command activated the Beta Gate in Antarctica on the other side of the world. 
+
+Destiny DHD
+
+The DHD aboard the Destiny.
+Destiny does not have a dedicated Dial Home Device; instead the Stargate is connected to the main computer on board the ship. Two consoles in the gate room are primarily used to dial the Stargate; however they are no different from other control consoles on the ship and so can access many other systems. Unlike a regular DHD, the gate is dialed by selecting an address from an available list, rather than manually selecting each glyph, similar to the dialing computer on Earth . The DHDs on Destiny also have screens that act as address charts and as screens for the Kino device. The reason for using glyphs at all given this menu system is unknown, but may indicate that Destiny gates can be manually dialed in an emergency.
+
+Destiny-style Stargates may also be dialed using a remote control-like device. These remotes are the only means to dial a planetary Stargate during Destiny s journey as the worlds they visit lack the DHDs of the Milky Way and Pegasus galaxies. 
+
+Gallery
+
+ 
+File:DHD.jpg|A Milky Way DHD.
+File:Dial Home Device 8.jpg|Closeup of a Milky Way DHD.
+File:Dial Home Device 1.jpg|DHD with buttons removed showing all control crystals.
+Dial Home Device 5.jpg|Removing the primary control crystal from the DHD.
+File:Atl_218_1154.JPG.jpeg|A Pegasus DHD.
+File:Dial Home Device 4.jpg|Closeup of a Pegasus DHD.
+File:Dial Home Device 2.jpg|Active Pegasus DHD.
+File:Ancient remote control.jpg|An Ancient DHD remote control.
+File:Con Portable Stargate DHD.jpg|Teal'c uses a portable Goa'uld DHD to power the Stargate.
+File:DHD_inner_workings.png|DHD inner workings as drawn by O'Neill.
+File:DHD2.jpg|

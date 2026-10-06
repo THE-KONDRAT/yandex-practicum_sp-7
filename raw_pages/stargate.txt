@@ -1,0 +1,236 @@
+Stargates, also called Astria Porta in Ancient and Chappa'ai in Goa'uld, as well as various other names across the universe, are a series of devices built by the Ancients which create wormholes, allowing for near-instantaneous transportation between two distant points in space. The Stargates are often considered to be the Ancients' greatest creation and thus, the Ancients are often referred to as the Gate Builders. The Ancients, the Asurans, the Tollan with the help of the Nox, and the Ori are the only known races capable of constructing Stargates.
+
+The original Stargate design was created by an Alteran named Amelius, from an idea he formulated the night before the Alterans left their home galaxy for the Milky Way. However, it is unknown if he actually established the first of the Stargate Network. They are among the oldest examples of Ancient technology found in the Milky Way galaxy; the Stargate found in Antarctica on Earth has been estimated to be over 50 million years old, while the Stargates used in the "Destiny mission" are even older. 
+
+Names
+
+ Astria Porta in Ancient alphabet.
+Chappa'ai in Hieroglyphs.
+The Ancients placed Stargates on thousands of worlds across several galaxies. They have long since reached Ascension, but the network remains accessible to any with the knowledge of how it works, and continues to be a convenient form of travel for many races. Some races, such as the Goa'uld, grew their ways of life around the gates, which became integral to the functioning of their culture. 
+
+In turn, most races developed their own names for the Stargates. The Ancients called them "Astria Porta". The English word "Stargate" is a calque of the Goa'uld word "Chappa'ai" (𓋴𓇼𓃀𓊀 𓈖𓏥𓋴𓃀𓅃𓇼𓇳𓏥𓆑), courtesy of a direct translation by Dr. Daniel Jackson, and "Chappa'ai" is itself a calque of "Astria Porta". The K'Tau call their Stargate "the annulus," which means ring in Latin. In the Pegasus galaxy, villagers know them as Rings of the Ancestors and variations thereof. They are also commonly referred to as simply "the ring" or "the gate". The Wraith call it the Portal. The inhabitants of M7G-677 call it the "Wraith Well". 
+
+Although Stargates are present on many planets, most of the races which use them are relatively primitive, and view the technology as divine in nature, as evidenced by such names as "Ring of the Gods" and "Circle of Darkness". In many cases the references to gods or evil in the names come from the Goa'uld, or in the Pegasus galaxy, legends of the Ancients or their present use by the Wraith. 
+
+Technical specifications
+
+ Amelius' original plans for the first Stargate.
+The Stargate creates a stable, artificial wormhole between itself and another Stargate, allowing near-instantaneous travel from the dialing gate to the destination gate, but not vice versa. When a given address is inputted, the dialing gate connects to the receiving gate over a subspace link and quickly exchanges precise locational details, then establishes a stable wormhole between them. When activated, a Stargate produces a violent burst of energy known as an unstable vortex or "kawoosh". This is due to the large amount of energy needed to form a stable wormhole, while keeping one open is much less power-intensive. This event will destroy any matter it comes into contact with; however, if the event horizon is blocked to within a few microns, the vortex will be suppressed. In order to warn people in the vacinity of the unstable vortex the Stargate emits an "alert" two loud medium/high pitched noises in order to warn people standing in the vacinity of the Stargate an incoming vortex is about to form. Technologies such as the Iris on Earth's Stargate can achieve this. The vortex settles into the event horizon, nicknamed the puddle for its liquid appearance. Travelers enter through the event horizon, which dematerializes them for transport through the wormhole, to be reassembled on the other side. The Stargate will remain open so long as matter or energy continues to pass through it, to a maximum of 38 minutes. Beyond this point, massive amounts of power are needed to sustain a wormhole, which ordinary sources cannot provide.
+
+A Spacegate in the Pegasus galaxy.
+Travel through a Stargate is strictly one-way: from the dialing gate to the receiving gate. This is not a limitation of the wormhole, but of the technology; wormholes will transmit anything that enters them, but no solid matter could survive the process. Thus, each gate in the pair takes on a specific role: the dialing gate converts the traveler into its most basic components (sub-atomic particles) and transmits it, while the receiving gate reassembles the transmitted matter back into its original form. Doing the reverse is not only fatal for the traveler, but would just result in the dialing gate deconstructing the object upon arrival, converting it into energy much like the process of ascension. It was originally stated that the traveller would be very cold and covered with some frost when arriving through another gate, although this was apparently ignored/discarded shortly thereafter. It is unknown what would happen if someone entered the dialing Stargate via the 'back' (the opposite side of the gate from the one that generates the 'kawoosh') rather than the 'front' (the side generating the 'kawoosh'); Bra'tac apparently knew someone who attempted that on one occasion, but only stated that the man's subsequent death was "most unpleasant", although further details are unknown. 
+
+The Stargate is an enormous superconductor composed almost entirely of Naquadah, and is capable of harnessing power from virtually any source, though some sources are apparently inferior to others. Its design renders it incredibly durable; direct meteor impacts have failed to destroy a gate, and they have also survived within a crashing vessel unharmed. The naquadah construction of a Stargate allows it to hold many times the necessary amount of power for a wormhole to form, but it does have a limit. Surpassing this limit will create an explosion of considerable size, enough to potentially kill all life on a planet the size of Earth. 
+
+Most Stargate addresses require six symbols (points in space) and a point of origin in order to connect.
+Though Stargates vary in design, they share several common elements. First, all Stargates have a group of glyphs spaced around the inner ring (39 for Milky Way gates, 36 for Pegasus and Destiny-style gates) and nine chevrons spaced equally around the outer edge. The glyphs on Milky Way and Pegasus gates represent constellations, while Destiny-style gates use a collection of abstract symbols for lack of consistent stellar landmarks. These two features are used as a coordinate system for the gate to target and form a connection with another gate; each chevron is locked to a specific glyph, thereby allowing the gate to connect to another. This is known as an address for a gate; gate addresses are described in terms of how many chevrons are needed to dial them, seven at the least and nine at the most.
+
+For a standard seven-chevron address, the first six glyphs represent points in space, forming three-dimensional coordinates. The seventh represents the point of origin, a glyph which is unique to each gate. For Stargates to access a destination outside of their galaxy, eight chevrons are used; the first six target a destination as normal, while a seventh glyph prior to the point of origin adds a distance calculation to the address, targeting a gate outside the galaxy as opposed to a local one. A nine-chevron address is more of a code than a location, and this allows connection to specific Stargates - regardless of their location. So far, the only two known nine-chevron address connect to the Ancient ship Destiny, and from Destiny to Earth, but it is possible that more of these addresses exist. 
+
+The Stargates within a galaxy are linked to each other in a network, usually by means of a Dial Home Device (DHD for short). This network automatically compensates for stellar drift, allowing every gate with a functioning DHD to properly connect to other gates. In the absence of this, the gate will either fail to connect entirely or roughly eject the passengers due to unexpected deviations in the position of the gate. Known networks include those in the Milky Way, Pegasus, Ida, the Alteran Home Galaxy (through which Priors were sent to the Milky Way), as well as the more primitive gate networks set up by the Ancient Seed ships. 
+
+Stargate networks
+
+Early gates
+
+ A first-generation planetary Stargate.
+The Stargate on the Destiny, and by extension those constructed by Seed ships, are suspected to be a prototype version on which all future gates are based. Stargate glyphs do not represent local constellations as the later models do, since they are used in many different galaxies. The glyphs are also separated, as opposed to the Pegasus and the Milky Way gates, where they are on an inner ring. The chevrons are also different; the triangular part of the chevrons is smaller and more angular at the ends, and the three lines on either side of the triangle are more distinct as individual lights. The chevrons also stay lit constantly, with the glyphs themselves lighting up to indicate a lock. Unlike later gates, the platform in which these Stargates are built is a part of the mechanism, and the entire Stargate spins when dialing, and locks its glyphs by moving them to the topmost position. The gate rotates clockwise for the first glyph, then changes direction for the next, alternating until the point of origin is locked. Planetary gate bases possess a large ramp, with lights on either side that activate whenever the gate is active, marking the path to the event horizon. Planetary gates and the one in Destiny have a chevron in front of the gate that lights up when the gate is active.
+
+The Stargate aboard Destiny with the gate bearing lit.
+Destiny's specific gate has its own unique features. An orb-shaped bearing that hangs above the gate lights up in tandem with the locking glyphs, and once the wormhole forms it stays lit along with a final chevron in the floor. When the wormhole disengages, a short blast of CO 2 is emitted from vents on either side of the gate. This appears to be superfluous, given that planetary gates have no such attachments. 
+
+Most likely because Destiny-style Stargates do not have an external power source, they have a limited range. Unlike Milky Way or Pegasus gates, Destiny-style Stargates cannot normally dial every gate in the galaxy, but instead can only dial gates in relatively close proximity. Still, if provided enough power, such as when connected to the ship's power source, the Stargate on board Destiny is capable of dialing Earth. This indicates that the range limitation is more of an efficiency issue, with either the older gates or their power source, rather than a physical limitation. Something that is ultimately a limitation of newer gate generations as well, only to a lesser extent, given that Milky Way and Pegasus era gates can only dial intergalactic addresses with a ZPM as a supplemental power source and dialing Destiny from a Milky Way era gate still necessitated extracting massive amounts of raw energy from the Icarus planet's Naquadriah core. 
+
+The gate on Destiny is reached from other galaxies through the use of the ninth chevron, the function of which was unknown until Destiny's address was discovered in the Atlantis database in 2007; otherwise, it is reachable through a normal seven-chevron address. However, they were unable to make a connection from the Milky Way until Eli Wallace discovered that the address, unlike normal addresses, is actually a code requiring nine specific symbols, rather than a set of coordinates and a point of origin. Due to how far Destiny is from the Milky Way, the power required to dial Destiny is immense, more than a single or even several Zero Point Modules could provide. The SGC tapped the Naquadria core of an Icarus-type planet for this purpose. Dialing the address causes Destiny to drop out of FTL to accept the connection. On the other hand, other Destiny-style Stargates are unable to dial Destiny while it is in FTL, which may be due to their older design, or indicate that the nine chevron address also functions as an override code of a sort. 
+
+Seed network
+
+An active first-generation planetary Stargate.
+The network formed by prototype Stargates functions differently than the full-fledged networks in the Milky Way and Pegasus galaxies. The Stargates are seeded in a relatively straight line, from one end of a galaxy to the other, leaving a course for Destiny to follow. Over extended periods, these will drift out of alignment due to stellar motions. Destiny is either close enough behind the seed ships that the line is still straight when it passes through a seeded galaxy or the Ancients compensated for stellar drift and sent the seed ships to planets that would eventually be along the corridor by the time Destiny passes through.
+
+These Stargates communicate with each other constantly and update their positions via short-range subspace transmitters, and then link up with Destiny once it comes into range. Because of the limited dialing range of the prototype Stargates, Destiny usually drops out of FTL near the area it wishes to dial, connecting to a few Stargates at a time. Though far away gates are normally out of range, any other gate in the chain within a single galaxy can be reached by leapfrogging through the gates in-between, though intergalactic dialing is not possible from a normal gate. However if Destiny has left a galaxy, a connection can still be made from a gate at the periphery of a galaxy, provided the ship is still in range and has dropped out of FTL.
+
+The prototype network has no local Dial Home Device; instead, it links up with Destiny and other compatible devices, transmitting the relevant addresses within range for use by the crew. For planetary dialing, Destiny has numerous Ancient remote controls, multi-purpose devices which serve as hand-held DHDs among other things. Manual dialing has never been attempted, so it is unclear if the prototype Stargates can be dialed in this manner - the crew of Destiny does not appear to be aware of any such function. However, given that the gates spin, just like Milky Way gates, it is likely that this is possible, as the Ancients explicitly removed the ability of the gates to spin when they wanted to lock out this dialing method. While the unavailability of a remote means the gate is ostensibly unusable, the remotes are actually more helpful in that a traveler does not need to memorize a gate address and manually plot it in. Rather, they simply have to browse the list of available addresses on the remote, and press on the one they want to commence the dialing sequence. 
+
+It's possible that these Stargates are made up of materials other than Naquadah. The materials appear to be weaker as a single shot from a Berzerker drone was capable of destroying a large segment of the Stargate. Normally a Stargate would be capable of absorbing large amounts of energy, and this is the only time partial destruction of a gate has been confirmed. It may also be that the gates are composed of some sort of alloy, whereas newer generations were designed with a higher composition of Naquadah both for resilience and for energy conduction. 
+
+Milky Way gates
+
+ 
+The second-generation, Milky Way-style Stargate on Earth.
+Milky Way Stargates are the second known model of Stargate designed by the Ancients. They are 6.7 meters in diameter and weigh roughly 29 metric tons. They are dark gray in appearance with red-orange colored chevrons. The triangular lower half of the Stargate's top chevron extends and retracts while locking a symbol. The glyphs are built into an inner ring. Most of the gates are built into a stone platform with a stairway for easy access. Those that aren't have often been moved from where they were first found. 
+
+The inner ring spins while dialing and can be moved, with some difficulty, by hand to dial the gate in the absence of external controls, if enough power is provided to unlock the ring. The dialing computer used by Stargate Command essentially employs this method to dial the gate; the system instructs the motors inside the gate to move the ring to the relevant position. A Dial Home Device bypasses the need for the inner ring to spin, simply allowing the user to enter the relevant address. The gate on the Asgard homeworld in the Ida galaxy appears to be of the same model as the Milky Way; it may have been gifted to the Asgard or brought there from the Milky Way by them to give them access to the gate network. 
+
+Pegasus gates
+
+An active third-generation Pegasus-style Stargate.
+Pegasus Stargates are the latest model of Stargate and are quite different from their Milky Way counterparts, much like digital versions to the Milky Way's analog versions. They are primarily silver in appearance, with a blue inner ring and blue chevrons (larger than those of a Milky Way Stargate). They possess no moving parts; instead, each glyph lights up in a circular pattern, staying lit when locked. Unlike Milky Way Stargates, Pegasus Stargates are not built into a platform but are instead just buried in the ground at about the same level.
+
+Because they have no moving parts, Pegasus Stargates cannot be manually dialed. Pegasus Stargates also have a security feature which renders them incapable of dialing intergalactic addresses without the use of a specific control crystal installed on Atlantis. This crystal can be removed and installed on other Dial Home Devices if necessary. Due to their newer design, Pegasus Stargates also automatically become the dominant gate if placed in the same region as an older model, which caused some problems on the Midway space station until Dr. Rodney McKay developed a bypass. 
+
+Pegasus also has the unique use of "Spacegates", Stargates which have been placed in orbit above a planet, rather than on the surface. Spacegates have no local DHD, and thus must be dialed remotely by a craft equipped with one, such as Puddle Jumpers or Wraith Darts. They are powered by three power nodes that also serve as stabilizers, keeping the gate in orbit and correcting for sudden impacts. Because of this, the residents of the Pegasus Galaxy consider randomly dialing a gate to be suicidal, and will do so only if given no other option. Thus, despite gate travel having long been a part of their civilization, travel has been restricted to historically known addresses for all of their recorded history.
+
+Complexities of function
+
+Matter transmission
+
+ A wormhole produced by a Milky Way-style Stargate.
+Matter transmission is a three-step process: dematerialization, transmission, and reintegration. When an object passes through the event horizon, it is dematerialized and held in a "hyperspatial buffer". The event horizon will only dematerialize objects in discrete units (one person, one ship, etc.), so any object which has not fully entered the event horizon can be removed without trouble. The gate does not begin transmitting an object until it has entirely passed through the event horizon. This ensures that only complete objects are transferred. In the case of larger objects such as Puddle Jumpers, the vessel itself counts as a complete object of higher priority than its smaller occupants, preventing transmission until the entire vessel has entered the event horizon. This applies to both the dialing and receiving gates. 
+
+Once an object is dematerialized, it is transmitted in the form of energy to the destination gate. Power is supplied by the dialing gate. If the power supply is interrupted the wormhole can disconnect prematurely, which may prevent the energy from being reassembled into the original object, or simply release the energy in its original form of matter (but in the form of atomic scale dust) into space well short of its destination. In cases where the power from the transmitting gate terminates and the receiving gate has a complete object in the buffer and a DHD, the DHD of the receiving gate will provide the power necessary to rematerialize the object prior to the gate shutting down. If there is any matter in the buffer on either side when the wormhole shuts down, it is stored until the next use, at which point the buffer is erased. 
+
+The event horizon on the receiving gate rematerializes the transmitted matter. The matter is first stored in the buffer to make sure the entire object has been retrieved, after which it is reassembled. Each time the gate is activated the buffer is wiped clean to receive new information, preventing any possible overlap that could be dangerous to reintegration. If the control crystal of a connected Dial Home Device is removed then an event horizon will form without establishing a wormhole, allowing any memory stored in the Stargate to be reintegrated. 
+
+Several facets of the Stargate are necessary for it to function as a useful personnel transporter. Matter emerging from a Stargate retains any kinetic energy it had while entering; a person running into one Stargate will hit the ground running upon emerging from another, and weapons fired into the gate will retain their harmful properties on the other side.  
+
+A Stargate falling into lava.
+The event horizon is able to determine the difference between passive and active contact of nearby matter in order to prevent unwanted transmission. This process keeps things such as air and water, which naturally exert pressure on their surroundings, from passing through the gate while allowing people and anything deliberately sent through the gate to pass freely. In one case, water that mostly submerged a gate (but did not completely cover it) applied constant pressure to the event horizon and to Atlantis' Stargate shield, keeping the wormhole active for the maximum amount of time. In another instance, the gate is knocked over into a pool of lava, and the lava appears to briefly enter the event horizon before the gate shuts down. 
+
+Gate obstruction
+
+ Earth's Milky Way Stargate with its iris closed.
+A wormhole is prevented from forming if a significant obstruction is present inside the Stargate's ring. Consequently, it is fairly common for Stargates to be semi- or permanently sealed by burying them.
+
+The Tau'ri's iris opening.
+Another means of controlling travel through a Stargate is by placing a barrier a minuscule distance (less than three micrometers) from the event horizon, which allows the wormhole to form but prevents the reconstitution of matter upon arrival through the gate. In other words, a connection can be made but any matter trying to exit the gate will not regain its original structure, and hence will be annihilated. The iris on the Earth Stargate and the shield on the Atlantis Stargate perform this function, and have been seen to be used as an effective defensive precaution, while still allowing radio communication through the open wormhole. The Goa'uld have also been seen to utilize shields to create the same effect, though their shields typically cover the entire gate, rather than blocking the event horizon itself.
+
+The Asgard's auto-dialer.
+Iris-type barriers also suppress the formation of an unstable vortex by not allowing the matter to form. Such barriers, however, are not the only way to prevent the vortex. Several races, including the Asgard and the Nox, have demonstrated the ability to open a wormhole without the vortex forming, presumably through a more efficient form of energy transmission. 
+
+Power source
+
+ Power is always required to establish an outgoing wormhole, and is usually supplied wirelessly by a Dial Home Device, but any Stargate can receive a wormhole whether it has a power supply or not; the dialing gate is the one that supplies power to both. In a few cases, Stargates have been dialed "manually" when more sophisticated means were not available. This was accomplished by providing sufficient raw power to the gate and then rotating the symbol ring by hand to lock each chevron. Power can be fed directly into the Naquadah that comprises the gate; power harnessed from lightning strikes has been shown to be sufficient for several seconds of transmission. Stargates also possess the means to harness the energy of nearby (in relative terms) quantum singularities, though it is unknown what methods it uses to accomplish this. The Stargate that establishes an outgoing wormhole determines how long the wormhole is held open, and can generally close the wormhole "at will". Under some conditions, a gate only needs enough power to connect briefly, then the receiving gate can provide enough power to maintain the connection. The same is true if the outgoing gate loses power while transmitting; if the incoming gate has a DHD, it will take over powering the gate until reintegration is complete. 
+
+Secondary Stargates
+
+If a planet possesses a second Stargate, the second gate is normally inactive, with the primary Stargate, defined by the presence of a functioning Dial Home Device, receiving all incoming wormholes. If a Stargate experiences a power surge while an outgoing wormhole is open, the other end of the wormhole has been observed to "jump" to the next closest gate in the network. The effect can also be used as a defensive measure or to close a connection with the receiving Stargate. In the case of a planet with two gates, the closest is the inactive secondary gate. This scenario resulted in the discovery of the Beta Gate in Antarctica by SG-1. 
+
+Earth's Beta Gate in Antarctica.
+The Antarctic gate was later revealed to have originally been the primary Stargate on Earth, built by the Ancients. The Alpha Gate, found in Giza and originally used in Stargate Command, was brought to Earth, by Ra, from another planet. Since Stargate addresses correspond to planetary locations and not individual gates, the new gate inherited the same address as the one in Antarctica. Because the Antarctic gate had been abandoned millennia earlier by the Ancients and the DHD had become inactive and disconnected, Ra's gate became the primary as it had a DHD with it. However, the Goa'uld were aware of the second gate, though possibly not its location, as evidenced when they demanded the surrender of both gates during negotiations for Earth's inclusion in the Protected Planets Treaty. (SG-1:Fair Game)
+
+It has been revealed that the Stargates of the Pegasus galaxy superseded the older, more outdated Stargates, such as the one on Earth. Earth was unable to dial out from Stargate Command when the Wraith Super-hive was in orbit with its own Pegasus Stargate; the programming of the newer gates force it to take precedence over incoming wormholes to the older outdated Stargates, and thus disabled the Earth gate at the SGC from dialing out. A similar situation was encountered at the Midway space station with the Milky Way and the Pegasus gates. 
+
+Durability and susceptibility
+
+ Atlantis' Stargate explodes, creating a force equivalent to that of roughly 12 nuclear warheads.
+Stargates are very durable; the Beta Gate from Antarctica is estimated to be roughly 50 million years old and the gate on Destiny around ten million years its senior, yet both still function perfectly. Stargates of the second and third generations are extremely resistant to damage or destruction, while first generation ones can be damaged by spacecraft energy weapons to the point of being unusable. 
+
+They have survived direct hits from meteors, the gravitational forces of black holes, the heat of a Star (this particular gate was protected by a portable Tok'ra force field for a portion of its journey, and was expected to melt eventually), and even a Naquadah bomb sent by Stargate Command that destroyed an entire planet left its Stargate intact. 
+
+Eventually, the United States of America developed a Naquadria-enhanced Nuclear warhead that was theoretically capable of destroying a Stargate (the "Mark IX"). However, when it was first used, it failed to destroy the intended Stargate, as an Ori shield defending the gate was actually feeding off the weapon's supposedly destructive yield. A later attempt against a Pegasus Stargate, however, succeeded by placing the bomb behind the gate, so that the energy would not be absorbed by the open wormhole. 
+
+Stargates are susceptible to subspace interference caused by the Attero device, which causes energy to build up in the event horizon, overloading the capacity of the gate within minutes. The resulting explosion can be seen from space. Two Stargates that were known to have been destroyed from this overload are Atlantis' Stargate and a Stargate on the Traveler settlement. 
+
+A first-generation Stargate broken by enemy fire.
+The first-generation Stargates are far less durable than the later models. During an emergency evacuation of the Novus colony a single Berzerker drone hit the gate with a relatively weak energy weapon, but managed to blast a hole through the ring and disable the gate's ability to create a wormhole. This was the first time that a Stargate has been seen to be damaged by such a weapon, though the Berzerker drones' weapons may simply have properties that Stargates are vulnerable to. Another first-generation Stargate was able to survive a rockslide and later a C-4 detonation to unbury it, so it still requires a relatively powerful blast to damage the gate. 
+
+Exceptions
+
+ An active Stargate destroyer.
+Under normal circumstances, a wormhole can only be maintained for slightly more than 38 minutes. This can be circumvented by various means, most commonly through the addition of a massive power supply. A race of energy-rich liquid beings were able to provide enough power for a gate to remain open for several days, in conjunction with a Russian MALP transmitting a continuous radio signal through the event horizon. The Stargate destroyer used by Anubis was also able to hold a gate open by transmitting a continuous stream of energy into the event horizon, which was absorbed by the gate on the other side. The power eventually exceeded the gate's capacity, causing it to explode. The Asurans were able to keep a Stargate open indefinitely by firing an immensely powerful laser through it. The gate drew power from the laser, staying active beyond the limit, and the Asurans had a limitless supply of Zero Point Modules to keep it running as long as necessary. 
+
+In addition to massive amounts of power, black holes have been shown to keep a Stargate open beyond the 38 minute window. When Earth's gate connected to a planet in the proximity of a black hole, relativity kept the gate open well beyond the time limit - as only mere moments had passed on the other side, while conversely the Earth gate stayed open for barely a second when dialed to from that location. Ori Supergates use an artificial singularity as a power source, enabling them to stay open indefinitely if need be, though they are usually left inactive. SG-1 used a normal black hole in conjunction with a regular Stargate to exploit this, creating a permanent connection between the two different gates until the dialing gate was destroyed. 
+
+Other uses
+
+ The Time loop machine activates.
+Several times, the Stargate network was used for a purpose other than interplanetary travel, although these extra features were almost always discovered by accident, and were not intended in the design of the Stargates. Two such occurrences regard the Stargate's interaction with time, first discovered by SG-1 when they accidentally traveled backward in time to the year 1969, as a result of the matter transmission stream passing through a solar flare. In the year 2010, in an alternate timeline, Samantha Carter intentionally used this phenomenon to send a message back in time. A time loop machine created by the Ancients utilized 14 Stargates to create a bubble enclosed from the rest of the space-time continuum, in which the same day looped continuously. 
+
+A Stargate can also be used as a weapon capable of destroying an entire solar system. By dialing to a planet with a black hole and then launching the gate into a star, Major Samantha Carter was able to make it go supernova by removing some of the sun's mass. The supernova destroyed the solar system and Apophis's fleet, which was orbiting the star at the time. 
+
+The dialing computer utilized by Stargate Command, an imperfect replacement for a Dial Home Device, is sometimes the cause of such malfunctions. Once, the bypassing of a system error (that was put there by the Ancients to prevent such a problem) caused a Stargate to introduce atoms of plutonium into the center of a star, causing the star to become unstable. Later, an alternate version of SG-1 dialed Earth from the other side of a black hole and caused the wormhole to arc to the closest Stargate, which is the same gate in our universe. This caused Stargates in different realities from the other side of the black hole to connect to our reality, but only from one reality for the same point of origin. This was reversed by use of an Asgard directed energy weapon causing the wormhole to arc while dialing all Stargates, whose alternate-reality-counterparts had send matter into our reality, causing the wormhole to arc to the universe in which the same gate address linked to our universe. 
+
+Later still, it was revealed that one Stargate could be used to dial multiple other gates simultaneously. This allowed a blast wave such as that of the Dakara superweapon to extend almost indefinitely throughout the galaxy. But it is still unknown what happens if an object passes the event horizon of a Stargate, linked to multiple destinations. 
+
+Glyphs
+
+ 
+Glyphs are symbols on Stargates which chevrons lock onto when a Stargate is being dialed. The basis for glyphs are star constellations. There are several differences between the Milky Way, Pegasus Galaxy, and Destiny glyphs.
+
+A Milky Way Stargate has 39 inscribed symbols on the inner ring. When dialing, this inner ring rotates until the dialed symbol is aligned with the seventh chevron, at which point the ring pauses, the seventh chevron moves down and up, and the appropriate chevron in the sequence engages and glows red. Unlike the Milky Way gates, Pegasus gates are depicted with 36 symbols. Seven symbols are still required to dial an interplanetary address, adhering to the same constraints as a Milky Way gate. Destiny's Stargate contains 36 symbols like Pegasus Stargates. The symbols are fixed on the Stargate and the entire Gate spins to dial an address. When dialing, the symbols light up to indicate they have been encoded. The glyphs are not based on star constellations as with Milky Way and Pegasus Gates since the gate must be able to dial addresses from a moving point of origin in many different galaxies, but rather are some mathematical or conceptual representation yet to be discovered by the people aboard.
+
+Chevrons
+
+An active chevron on a Milky Way-style Stargate.
+ 
+
+ 
+A chevron locking on a Milky Way Stargate.
+All known Stargates have nine chevrons, on Milky Way and Pegasus gates each chevron lights up ('locks') as a symbol is entered. Hence an eight-symbol address can be referred to as an eight-chevron address. Partly because DHDs are only able to power seven-chevron (same-galaxy) connections, these are the most common and the eighth and ninth chevrons are never used by most societies, who attach mythical meanings to them. In many cases the eighth and ninth chevrons are not even visible, hidden beneath the 'ground level' of a Stargate platform.
+
+In reality, eight-chevron addresses connect to other galaxies, with the extra symbol in the address acting as an area code. Nine-chevron addresses function entirely differently and enable connections with specific Stargates regardless of their place in the universe; although the exact functioning is ambiguous as the only known example of this is the Ancient ship Destiny. In this case, the address is a fixed nine-symbol code and the point of origin symbol is not required. Destiny itself also uses a nine-chevron address to dial back to Earth but, as the Earth gate is not the one originally used by the Ancients, this implies either that Destiny was able to identify the address of the new Earth gate and update its database, or that some nine-chevron addresses do identify a location instead of a specific Stargate. 
+
+Dialing devices
+
+A Milky Way Stargate's DHD.
+ 
+
+ 
+Dial Home Devices (or DHD's) are large, pedestal-shaped computers placed on almost every planet in the Stargate Network. They establish a link with the nearby Stargate and act as a control device and power source, allowing any intelligent corporeal species to dial it without having to rotate the gate manually or develop their own computer interface. Similar to a telephone dial or touch pad (although much larger), the DHD is used to specify which other Stargate to connect to when opening a gate or wormhole to another location. The external symbols on the DHD represent star constellations, surrounding the central activation button. The DHD's are composed of control crystals, used to store memory and information. Despite the apparent simplicity of function, the DHD performs incredibly complex calculations within seconds every time it is dialed to account for stellar drift and other potential problems, assisted by information from its automatic update command. 
+
+Destiny-style Stargates do not have dialing devices. Instead, an Ancient remote control is used to dial the gates. The remote provides a list of available addresses for dialing. On Destiny, the control panels in the gate room serve as a dialing computer in addition to their other functions. 
+
+Known Stargates
+
+*Abydos' Stargate
+*Alpha Gate
+*Atlantis' Stargate
+*Bedrosian Stargate‏‎
+*Beta Gate
+*Dakara's Stargate
+*Destiny's Stargate
+*Edoran Stargate‏‎
+*Gate of Mahg Mar
+*Icarus Base's Stargate
+*Kallana's Stargate‏‎
+*Langaran Stargate‏‎
+*Tagrean Stargate‏‎
+*Taranis' Stargate
+*Tegalan Stargate‏‎
+*Vorash's Stargate‏‎
+
+Other variants
+
+Ori Supergates
+
+ 
+An active Ori Supergate.
+A Supergate is a massive Stargate developed by the Ori, spanning three to four hundred meters across. All known Supergates have been used for the specific purpose of establishing permanent footholds in distant locations in the universe, permitting the rapid passage of the Ori Army's enormous motherships across intergalactic distances.
+
+In addition to the Supergates, the Ori must have their own version of a regular Stargate since they sent Priors to the Milky Way via Stargate on numerous occasions. 
+
+Orlin's Stargate
+
+ 
+The descended outcast Ancient, Orlin built a miniature Stargate in Major Samantha Carter's basement. Its components included 100 pounds of pure raw titanium, 200 feet of fiber optic cable, seven 100,000 watt industrial strength capacitors, and a toaster. This gate was hooked up to the main power supply of the house and only connected once, to Velona, before it burnt out. 
+
+Tollan Stargate
+
+ 
+The Tollan Stargate.
+The Tollan were an advanced human civilization. Among their most impressive technological accomplishments was the construction of a new Stargate, built mainly with knowledge provided by the Nox.
+
+With the destruction of the original Tollan homeworld, the Tollan's Stargate was lost. Their new homeworld, Tollana, had no original Stargate; with the assistance of the Nox, a new gate was built.
+
+The Tollan gate was smaller and slimmer than the Ancient's Stargates, and has a pale white color. However, it seemed to lack a Dial Home Device, or even an inner track for manual dialing, suggesting the control of it was inside a nearby building using remote dialing. Eventually the Tollan Stargate was hit by a Goa'uld Ha'tak's weapons and was presumably destroyed by the attack, as reported by Narim to Stargate Command. 
+
+McKay/Carter Intergalactic Gate Bridge
+
+ 
+The McKay/Carter Intergalactic Gate Bridge was a project to place a chain of Stargates in the void between the Milky Way and Pegasus galaxies; it was initiated to allow rapid transit between Atlantis and Stargate Command without the need of a Zero Point Module to power the Stargate. At the time, only the Atlantis gate had a ZPM available, meaning that the return trip from Earth required an eighteen-day journey in a hyperspace-capable Daedalus-class battlecruiser. To this end, Stargates were "harvested" from the surface or orbit of uninhabited planets and deposited accordingly on both ends. When Atlantis' ZPM was depleted, the project took on an added urgency and was made operational shortly afterward. 
+
+The middle of the Gate Bridge.
+The bridge (named as such by its co-creator Dr. Rodney McKay, recognizing Lt. Colonel Samantha Carter for the original idea) consists of seventeen Stargates from the Pegasus network and another seventeen from the Milky Way network. A macro program written by McKay and uploaded to the gates' operating systems before dialing causes them to store incoming matter in their buffers, forwarding travelers from one gate to the next along the bridge, rather than emerging from the gate that is initially dialed. 
+
+Travelers will then exit at the Midway space station, halfway between galaxies, which serves as a transfer point. There, they will then use the other gate network (and a second macro program designed for that network) to continue on to their ultimate destination: travelers from Atlantis would use a Milky Way gate to travel on to Earth and similarly, travelers from Earth would use a Pegasus gate to travel to Atlantis. Even with this, the travel time between galaxies is just slightly over thirty minutes, making it far more efficient than traveling by hyperdrive. 
+
+When the first test of the gate bridge was conducted, only the framework of the station had been completed, so a Puddle Jumper was used. The test was a complete success, and the bridge was declared operational. It was later revealed that, since the last gate in the bridge must dial the exit gate, normally either Atlantis or Earth, the macro can be rewritten to dial a different exit gate in the destination galaxy. The Midway station has since then been destroyed by the Wraith. 
+
+Asuran Stargate Satellite
+
+ 
+The Asuran Stargate satellite.
+The Asurans had developed an eight-chevron variant of a Stargate that was created as a satellite weapon. Its components included a shield generator, sensors and a hyperdrive, allowing it to orbit its intended target. Once this was accomplished, a wormhole was to be activated, after which an intense red energy beam reaches out and strikes the target which, in this case, was the city of Atlantis. The beam would originate from an Asuran stronghold, which simultaneously powers the satellite's defenses while also maintaining an ongoing wormhole.
+
+The satellite also had the added effect of preventing Stargate travel through the Atlantis Stargate as long as the satellite maintained its connection to the dialing Stargate, as both gates would be attempting to use the Atlantis coordinates. The satellite was able to receive the incoming wormhole from the Asurans, indicating that it could override the Atlantis Stargate, the dominant Stargate on the planet due to its being connected to a DHD. It appeared as a satellite with a Stargate in the center of its form which allowed it to manoeuvre and, thus, direct the energy weapon.

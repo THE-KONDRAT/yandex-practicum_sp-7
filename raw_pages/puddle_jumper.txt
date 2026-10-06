@@ -1,0 +1,181 @@
+Puddle Jumpers are small spacecraft created by the Ancients. Several of these ships were discovered in various hangars in Atlantis, and are used by the Atlantis expedition for various purposes. Puddle Jumpers feature retractable thrusters that allow them to travel through a Stargate, as well as powerful Drone weapons for self-defense and a cloaking device to avoid detection. They are operated via neural interface, and so the Ancient Technology Activation gene is required to activate and pilot the ship. 
+
+The name "Puddle Jumper" is a combination of a visual pun on the ship's ability to travel through the event horizon of a Stargate (an action also referred to as "Threading the Needle"), which resembles a pool of water, and a reference to the slang term 'puddle-jumper' on Earth, which means a small plane intended for short distance flights. It was coined by Major John Sheppard, an experienced pilot, who found a serendipitous double meaning when describing the craft. The nomenclature of the ship was immediately protested by Dr. Rodney McKay and Lt. Aiden Ford, who preferred "Gateship", although their suggestion was rejected. As such, the name, "Puddle Jumper" stuck and has continued to be used to this day. 
+
+The Asurans referred to these ships as "Gateships", possibly indicating that the Ancients also called them that in their language. 
+
+However, the Wraith are shown to refer to them as Jumpers or Lantean Jumpers, possibly having picked up the term from the Tau'ri. 
+
+Design
+
+ 
+A Puddle Jumper flying out of a Stargate.
+The design of a Puddle Jumper is a small, roughly cylindrical shape with an angled front and rear, allowing it to slide perfectly through open Stargates. The front section contains the cockpit of the vessel with all control functions, four seats for passengers, and a large view port at the front of the ship. The aft section contains a passenger and storage area with a hatch in the back to access the ship.
+
+A Puddle Jumper with engines extended.
+Similar to the Tel'tak, the craft is split into two sections, the cockpit and cargo hold, with a bulkhead door to separate them. This door is quite strong, capable of holding back the pressure of deep ocean water and retaining atmosphere in space. 
+
+Entry and exit to the Puddle Jumper is provided through the use of the cargo bay door in the rear. This door can be lowered and raised in normal operation, or can be jettisoned by use of the emergency release located in the rear section of the cargo bay. In the event that this release fails, there is a secondary release located under one of the seats in the cargo area. A smaller hatch installed by the Tau'ri also exists in the ceiling of the cargo section allowing for entry. 
+
+The cargo area also serves for additional seating within the Jumper for more than the flight crew. Jumpers have a limited power supply, but it is presumably rechargeable. The vessel contains an arsenal of Drone weapons and engines pods on both the port and starboard sides. The Jumpers also carry a portable Dial Home Device to dial addresses regardless of whether or not the Stargate is orbital.
+
+The Jumpers can be used as bombers by attaching explosives to the bottom of the craft and later releasing them. There are also lights built into the Jumper's underside for seeing underwater. Jumpers gating to Atlantis go into autopilot upon entering a certain distance of the gate. 
+
+Puddle Jumpers are susceptible to electromagnetic fields, which can actually disrupt their systems enough to disable them if the field is strong enough, such as on M7G-677. 
+
+Technology
+
+ 
+
+Weapon systems
+
+The Puddle Jumper's Weapon port.
+A drone shot from a Puddle Jumper.
+The Jumper's weapon systems consist of at least 12 Drone weapons that are housed in the two weapon pods located on both sides. These pods must be extended before the drones can be fired. The drones (like the Jumpers themselves) can be controlled by the pilot's thoughts. Even without a significant power source (such a ZPM like Aurora-class warships) the Drones weapons in puddle jumpers are very powerful: One is able to destroy a building-sized asteroid and a Wraith Dart completely. Furthermore, like all drones, they can strike a target multiple times, for example, only one drone striking 3 times can penetrate the hull of a Wraith cruiser. The drones also have the ability to bypass certain types of shields, notably those of a Goa'uld Ha'tak. Additionally, they seem to be able to seek out key systems; two drones fired at a Ha'tak by a Jumper were able to completely destroy it. 
+
+It was theorized by Dr. Rodney McKay that these drones could also be used to pilot the Jumper, although this was never tested. It is assumed that the craft would not be very maneuverable or fast; however, it would require very little power. Eventually, McKay discovered the Jumper's own engines could be controlled wireless through an Ancient Control chair in this way. 
+
+Cloaking generator
+
+A Puddle Jumper cloaking.
+Two Puddle Jumpers de-cloak.
+A Puddle Jumper has no true defensive shields at all, suggesting that it was designed to be an exploration and trading ship. Its only defense consists of an advanced cloaking generator capable of masking the ship to both the naked eye and sensors, much like those on Goa'uld Tel'taks and Al'kesh, although far smaller and more powerful. The Jumper's cloak cannot be penetrated by Wraith, Tau'ri, Goa´uld or Asgard sensors, apart from the sensors of the ZPM powered hive ship. The cloak conceals the full interior of the vessel and its occupants even if the hatch is open. The Jumper's cloak is not limited to the size of the craft, as it can be extended around other objects. 
+
+The cloak of a Jumper re-tuned for use as a shield.
+However, through modifications the cloaking generator can be altered to act as a shield, capable of withstanding the pressure of the ocean and even one Atlantis Drone without falling, although this drains the Jumper's power rapidly. The cloaking generator can only project either the cloak or the shield, as both are generated from the same device. 
+
+An Anti-Replicator field protecting a Puddle Jumper.
+Dr. Rodney McKay was also able to modify the Jumper's cloak to emit an Anti-Replicator field that would destroy all Asurans in range (9 levels of a City-Ship). Furthermore, Michael Kenmore was able to interface Wraith technology with a stolen Jumper to emit a Stun bubble around the ship. 
+
+Control console
+
+There have been at least three different designs of main control consoles for the Puddle Jumpers. The reason for the changes was never explained.
+* The original console featured many colored panels and knobs which would glow when the jumper was started up by a person with the Ancient Technology Activation gene. Most of the console was brown-colored.
+A Dial Home Device on a Jumper, calibrated for the Milky Way galaxy.
+*The second Jumper console featured a rigid gray panel without any type of lights. The light colored buttons and dials were replaced with gray sliders and other controls. The control panels on board the Orion and at the center of Project Arcturus were similar. It is implied by Dr. Rodney McKay that these control panels were the Ancient's "latest stuff" - the latest being 10,000 years old. This would indicate that the second Jumper console is actually more advanced than the first, but it is not explained how the team came across the newer design. It is possible that they were obtained from Atlantis' sister ship. 
+*The third Jumper console was first introduced in the Jumper stolen from the Asuran city-ship, and has been featured ever since 2006. It appears as a mix of the two previous Jumper consoles with a solid panel but with many small buttons, blue lights and sliders while in the previous Jumpers there were two sticks controlling speed and direction. In this there is one which moves up, down, and side to side for direction and another controlling speed. When moved completely forward it is at zero, and when pulled fully back it is at max throttle. This design has only four bench seats in the rear compartment, as opposed to the first two designs which had six bench seats. 
+
+It should also be noted that the Atlantis expedition members have been seen using the control stick to fly instead of piloting the vessel by mental interface, though the drones were still required to be launched with the mental interface. 
+
+Communications
+
+The Puddle Jumper utilizes a subspace communications system to facilitate real-time communications between locations, although capable of communication to the other side of a solar system, it is not as powerful as the ones on the rest of the Ancient fleet or the Tau'ri Deep space carriers. They also have a radio transmitter, possibly put in place by the Tau'ri. 
+
+Sensors
+
+The sensors of a Puddle jumper are very advanced and powerful for the size and power of the ship. These sensors are capable of scanning almost half a solar system and gives information of ships, energy sources and life signs within range.
+
+Tau'ri equipment
+
+A Puddle Jumper, modified by Rodney McKay, enters hyperspace.
+A various assortment of items can be attached to a Puddle Jumper, typically on the underside of the vessel, or can be carried. Examples include objects that need to be launched (that can be carried, such as a Naquadah generator), or a grapple. 
+
+As the Jumpers are used on a regular basis by the Atlantis expedition to explore planets in the Pegasus galaxy, their Jumpers have been equipped with a large amount of Earth equipment. All of their Jumpers possess plenty of food, medicine, weapons and other supplies on board, suspended over the seats in the rear compartment by rubber netting and behind the seats in the forward compartment.
+
+As off-world teams are likely to come under fire, there is a healthy supply of weapons, ammunition and tactical vests on board, including FN P90 Personal Defense Weapons, M4 Carbines, M249 Squad Automatic Weapons, and pistols, usually Berettas. In addition, there are at least two AT4 rocket launchers on either side of the rear hatch in the back of the Jumper. There is also enough equipment in the Jumper, including laptops and tools to fix the Jumper in case of a breakdown.
+
+During the brief time that Dr. Rodney McKay was being accelerated towards Ascension, he designed a virtual prototype for a hyperspace window generator for the Puddle Jumper. At one time, McKay and Dr. Radek Zelenka formulated a plan to use the experimental Jumper's hyperdrive, so the team are able to fly from the stranded Atlantis to Asuras. Unfortunately this took a lot of power and the only way they would have been able to fly it back would be to interface the Zero Point Module they stole. 
+
+McKay stated that he and Zelenka were working on fitting Asgard transporters onto Puddle Jumpers, but were only in the early stages. 
+
+Time machine
+
+The Time Jumper travels through time.
+ 
+An Ancient scientist named Janus created at least one Puddle Jumper, known as a Time Jumper, which is capable of Time travel by means of a device installed in the cargo hold. In the main timeline, this experimental technology was banned by the Lantean Council in order to prevent dangers associated with time travel. A Time Jumper was encountered by the Atlantis expedition in an alternate timeline and Stargate Command in the current timeline. 
+
+Control crystals
+
+left
+Puddle Jumpers, like other Ancient technology, utilize crystals to control its systems. These crystals are located in the rear section of the ship behind the bench seats and in panels hanging from the ceiling. As most of the control conduits go to the rear section of the Puddle Jumper, it is possible to control the ship from that location as well. The control crystals, such as the one for the cloaking generator, can be removed from a Jumper and implemented on other Ancient ships, such as Atlantis. 
+
+Engines
+
+Drive pods of a Jumper extended.
+left
+Puddle Jumpers are equipped with two anti-gravity drive pods, which may either be extended or retracted during flight. However, the drive pods when extended are capable of propelling the craft at far greater speeds, but must be retracted in order to go through a Stargate. The engines of Puddle Jumpers also allow the craft to hover silently above ground in one spot. This, in conjunction with the cloak, has proven to be a useful ability in surprise attacks. Puddle Jumpers are also capable of reverse flight. As they are also capable of operating underwater, Puddle Jumpers may also be used as submersibles. 
+
+The power of these engines&mdash;while impressive for a craft of their size (capable of flying through a star system in 15 hours, about 17000 Km/sec)&mdash;is greatly exceeded by that of larger capital ships, such as those of the Daedalus-class, capable of making the same cross-star system trip in a matter of minutes. .
+
+Heads up display
+
+The active Heads up display in a Puddle Jumper.
+Like many of the other onboard systems, the heads up display of a Puddle Jumper is entirely intuitive. Appearing on the main viewing window of the Jumper, it displays pertinent information about anything the pilot is thinking about. It also activates automatically to display important information to the pilot, such as nearby vessels, weapons fire or anomalous energy readings. 
+
+History
+
+Atlantis Expedition
+
+A Puddle Jumper in Atlantis' gateroom.
+The city of Atlantis is equipped with a full hangar of Puddle Jumpers, with the ability to leave the city through the retractable roof, or enter Stargate Operations to be sent through the Stargate. They were first used when Major John Sheppard mounted a rescue operation to recover a group of Tau'ri and Athosians- including Colonel Marshall Sumner and Athosian leader Teyla Emmagan- from a Wraith Hive ship. While returning to the Stargate after sustaining damage from a Wraith attack, a team from Atlantis led by Sheppard on a Puddle Jumper got stuck midway through the Gate when one of its engine pods did not retract properly, wedging the ship in the gate until the drive-pods could be retracted manually, although Lt. Aiden Ford was forced to risk exposing himself to vacuum in order to provide the ship with the necessary force to move through the Stargate after their momentum had ceased. 
+
+A Puddle Jumper stuck in a Spacegate.
+While assisting the Genii in their effort to combat the Wraith, Sheppard piloted a cloaked Puddle Jumper and infiltrated a Wraith Hive ship. After escaping, the Genii betrayed the Atlantis team at gunpoint. However, thinking ahead, Sheppard called on his communicator and two other Puddle Jumpers uncloaked allowing the team to escape. Witnessing the power of the Atlanteans first hand, the Genii sent an invasion force to Atlantis to retrieve essential supplies, including a Puddle Jumper (ignorant of the fact that the Ancient Technology Activation gene is required for their operation). At the time, another Puddle Jumper was stuck on the mainland during a massive storm that kept it grounded. When the eye of the storm passed over the mainland, Dr. Carson Beckett flew into the upper atmosphere in order to return to Atlantis to assist Sheppard in regaining control from the Genii. 
+
+Sheppard, Dr. Rodney McKay, Dr. Brendan Gall, and Dr. Abrams later took Jumper One to the far edges of the Lantean system for research. They were able to locate a Lagrangian Point satellite and a downed Wraith supply ship on the satellite-orbiting planet. Landing on the planet, a lone Wraith survivor was able to access the Jumper while Sheppard and his team were investigating the crashed Wraith ship. The Wraith was able to activate a shield around the Jumper through extensive system modification, forcing McKay to determine how to access the shield after the Wraith was killed. 
+
+In 2005, a Wraith Dart arrived at Atlantis to scan it in a prelude to a Wraith incursion. Jumpers 1, 2 and 3 intercepted the Dart to prevent it from reaching Atlantis, but it was able to destroy Jumper 3 and self-destructed after it successfully scanned Atlantis, beaming at least one Wraith into the city in the process. 
+
+The power systems of a Puddle Jumper can be linked to other sources, and McKay was able to connect the power system of Jumper 4 to the Atlantis power grid to allow for a brief Stargate wormhole connection to Earth. 
+
+The control systems of a Puddle Jumper can be controlled by an Ancient Control chair for sending Jumpers into unsafe areas. This idea was implemented when Hive ships were over Atlantis and Jumpers were to be sent at the Hive ships with nuclear warheads on board. Unfortunately the power supply of the control chair failed just before the plan was to be implemented and the Jumpers had to be sent manually. The Jumper was destroyed, taking a Hive ship with it, but its pilot was saved by the Daedalus. 
+
+A Puddle Jumper was used to investigate an Ancient planet with the power source known as Project Arcturus. When the power source began to overload and the outpost's weapon turret started to fire erratically, Sheppard and McKay had to use the Puddle Jumper to evade the turret's weapon's fire and return to Atlantis with protection by the Daedalus. 
+
+While visiting Olesia, one of Atlantis' Puddle Jumpers was shot down by prisoners on the planet's penal colony. Another Puddle Jumper under the command of Dr. Elizabeth Weir went to investigate and assisted in evacuating the prisoners through the Stargate during a Wraith culling and rescuing the team of the downed Puddle Jumper, which was retrieved and repaired by Dr. Radek Zelenka. 
+
+When Sheppard was trapped in the time dilation field of the planet Cloister, McKay, with Weir and Beckett, took a Jumper to the planet to launch a probe to investigate the field in order to shut it down. 
+
+Testing out a Puddle Jumper's systems after it was damaged, McKay and Captain Hugh Griffin were flying Jumper 6 over Lantea's ocean until its engine failures and crashed into the ocean. After a certain depth, the front cockpit's window broke due to the pressure, and McKay took refuge in the aft area while the officer remained in the cockpit to save McKay. After some time, the Jumper landed on the ocean floor, but the impact fractured the bottom hull and caused the water to slowly leak in. In the meantime, Sheppard and Zelenka were able to figure out how to convert a Jumper's cloak into a shield, thus protecting it from the pressure of the ocean. They were able to locate McKay's Jumper and extend the shield, saving McKay, but leaving his Jumper on the ocean floor. 
+
+left
+In exchange for medicine and overall assistance, Atlantis received a number of Puddle Jumpers that were in stored in a derelict and nearly powerless City-ship. The power core of the Jumpers had long since drained and they were collecting dust, as the people of that planet had neither the technological know-how to restore power or the ATA gene to fly them. 
+
+After investigating a planet, Sheppard and his team rescued Phoebus' pod while Jumper 6, under the command of Major Evan Lorne, retrieved the pod used by Thalan. 
+
+Around the end of 2006, Atlantis had around 10 known Jumpers in its possession. During this time, when the Genii coup d'etat was occurring, Atlantis special ops used a cloaked Jumper to investigate a Genii facility on M6R-867. When Sheppard and his team arrived at the planet in an attempt to acquire a Zero Point Module, they were captured by Cowen who put them up as hostages in exchange for Atlantis' Jumpers. The imminent coup d'etat allowed Sheppard and his team to be freed. 
+
+Following the creation of the McKay/Carter Intergalactic Gate Bridge, Sheppard took a Jumper to the Midway space station during the first test of the bridge. When the Asurans subsequently took control of Atlantis, Sheppard's team used a Jumper to return to Pegasus and enter the city, gaining access via the underwater Jumper bay. 
+
+Uses in the Milky Way
+
+SG-1 discovers the Puddle Jumper on Arkhan's World.
+SG-1, while investigating the Arkhan's World, discovered a single Puddle Jumper after finding monuments with Ancient writing. With his Ancient Technology Activation gene, Brigadier General Jack O'Neill was able to use the Puddle Jumper to destroy the Goa'uld Ares' Ha'tak to prevent an invasion of Arkhan's World. The Puddle Jumper was then taken to Earth for further study. 
+
+After reading an article of text, Dr. Daniel Jackson discovered that Ra had a Zero Point Module while he was ruling Egypt. SG-1, along with Brigadier General Jack O'Neill, used the Puddle Jumper they retrieved and went back in time to retrieve the ZPM. Although they retrieved the ZPM, the cloaked Jumper had been partially covered with a dune of sand and was discovered by Ra's Jaffa preventing SG-1 from returning to the present, changing the future.
+
+In the alternate timeline where there was no Stargate Command or Stargate Program due to Ra taking the Stargate with him after his human slaves had rebelled against him, the Puddle Jumper was found in Egypt and brought to Cheyenne Mountain for investigation. After discovering a tape left by Jackson in the past, gate addresses stated were dialed through the Jumper with no visible effect. However, the alternate Samantha Carter discovered that, after dialing, seismic activity had occurred in Antarctica, signaling the location of the hidden Antarctic Stargate. 
+
+SG-1 travels back in time on Chulak; 2995 B.C.
+With the help of the alternate O'Neill, the Jumper was used to dial and travel through the newly discovered gate to Chulak to locate the alternate Teal'c. Though the two teams that went were kidnapped by Apophis, they were able to escape with help by Teal'c and escaped in the Jumper, traveling through to the past then returning to Egypt. The location of the landed Jumper was the restart of the standard timeline where the uprising against Ra went as normal and the ZPM was found in the normal timeline, thus preventing the real SG-1 from using the Jumper to go to the past. 
+
+A Puddle Jumper from Atlantis was brought to Earth through the Midway space station where it was kept in storage in Stargate Command. It was later stolen by Lt. Colonel John Sheppard and his team to return to Atlantis to regain control of it. 
+
+After SG-1 is inadvertently sent back in time to 1947, a future version of Carter and HG Wells send O'Neill and Vala Mal Doran in the Time Jumper, equipped with an Asgard transporter, to rescue them. This results in SG-1 inadvertently causing the Tunguska Event, accidentally creating an alternate timeline, fighting a Goa'uld invasion in the alternate 1947 and rescuing the Asgard scientist An from Roswell in 1947. 
+
+Uses by others
+
+The Puddle Jumper was commonly used by the Ancients, who would use them to explore other planets and travel around the Atlantis outpost in Antarctica on Earth. A number of Puddle Jumpers were in storage in the Tower. After some time, they lost power and started to collect dust in storage until some were given to Atlantis. The Asurans, mirroring the technology of the Ancients, were able to develop Puddle Jumpers based on those used by the Ancients. One was stolen by the team before the Asuran city-ship was destroyed in order to escape. 
+
+At least one Puddle Jumper was on Earth in the hands of the descendants of the Ancients who left Atlantis. Three years after the Tau'ri Rebellion, Ai, the granddaughter of an Ancient who settled in Japan, used it alongside two versions of the Time Jumper to help repel a renewed invasion of the planet by Ra. 
+
+In the Asuran copy of Atlantis, the city had a Jumper bay and the Organic Asuran versions of the team took one of these Jumpers to escape the destruction of the city as the city's Stargate was fake and the planet didn't have one. They later used the Jumper to hitch a ride on the Asuran Aurora-class battleship and it was shot down distracting an Asuran cruiser. 
+
+The Human-Wraith Hybrid Michael Kenmore obtained a Jumper from Lt. Colonel John Sheppard's team and used it to escape his cruiser when its destruction was imminent. He later used it to infiltrate Atlantis where half of it was destroyed by the unstable vortex of a wormhole activated by Dr. Rodney McKay for that very purpose. It is unlikely to be repairable. 
+
+In an attempt to save their race, three rogue Tok'ra stole the Time Jumper and kidnapped Doctor Carolyn Lam to pilot it. After following the Tok'ra to 2492 BC, SG-1 were able to recover the Jumper and used it to drive Ra off of Earth once more. 
+
+Known Jumpers
+
+*Asuran Jumper
+*Escape Jumper
+*Experimental Jumper
+*Jumper 1
+*Jumper 2
+*Jumper 3
+*Jumper 4
+*Jumper 6
+*Jumper 8
+*Michael's Jumper
+*Rescue Jumper
+*Time Jumper
