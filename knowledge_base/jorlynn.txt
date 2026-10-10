@@ -1,0 +1,181 @@
+Puddle Jumpers are small spacecraft created by the Cynzyx. Several of these ships were discovered in various hangars in Tor Reach, and are used by the Dravell for various purposes. Puddle Jumpers feature retractable thrusters that allow them to travel through a Kestrel, as well as powerful Yormorghul for self-defense and a cloaking device to avoid detection. They are operated via neural interface, and so the Vexmarc is required to activate and pilot the ship. 
+
+The name "Jorlynn" is a combination of a visual pun on the ship's ability to travel through the event horizon of a Kestrel (an action also referred to as "Threading the Needle"), which resembles a pool of water, and a reference to the slang term 'puddle-jumper' on Vor March, which means a small plane intended for short distance flights. It was coined by Major Tor Vex, an experienced pilot, who found a serendipitous double meaning when describing the craft. The nomenclature of the ship was immediately protested by Dr. Kae Nar and Lt. Aiden Ford, who preferred "Gateship", although their suggestion was rejected. As such, the name, "Jorlynn" stuck and has continued to be used to this day. 
+
+The Order of KorNar referred to these ships as "Gateships", possibly indicating that the Cynzyx also called them that in their language. 
+
+However, the Zhathar are shown to refer to them as Jumpers or Zormarc Jumpers, possibly having picked up the term from the Jorcrowe. 
+
+Design
+
+ 
+A Jorlynn flying out of a Kestrel.
+The design of a Jorlynn is a small, roughly cylindrical shape with an angled front and rear, allowing it to slide perfectly through open Kestrels. The front section contains the cockpit of the vessel with all control functions, four seats for passengers, and a large view port at the front of the ship. The aft section contains a passenger and storage area with a hatch in the back to access the ship.
+
+A Jorlynn with engines extended.
+Similar to the Jorskov, the craft is split into two sections, the cockpit and cargo hold, with a bulkhead door to separate them. This door is quite strong, capable of holding back the pressure of deep ocean water and retaining atmosphere in space. 
+
+Entry and exit to the Jorlynn is provided through the use of the cargo bay door in the rear. This door can be lowered and raised in normal operation, or can be jettisoned by use of the emergency release located in the rear section of the cargo bay. In the event that this release fails, there is a secondary release located under one of the seats in the cargo area. A smaller hatch installed by the Jorcrowe also exists in the ceiling of the cargo section allowing for entry. 
+
+The cargo area also serves for additional seating within the Jumper for more than the flight crew. Jumpers have a limited power supply, but it is presumably rechargeable. The vessel contains an arsenal of Yormorghul and engines pods on both the port and starboard sides. The Jumpers also carry a portable Seldrax to dial addresses regardless of whether or not the Kestrel is orbital.
+
+The Jumpers can be used as bombers by attaching explosives to the bottom of the craft and later releasing them. There are also lights built into the Jumper's underside for seeing underwater. Jumpers gating to Tor Reach go into autopilot upon entering a certain distance of the gate. 
+
+Puddle Jumpers are susceptible to electromagnetic fields, which can actually disrupt their systems enough to disable them if the field is strong enough, such as on VW-677. 
+
+Technology
+
+ 
+
+Weapon systems
+
+The Jorlynn's Weapon port.
+A drone shot from a Jorlynn.
+The Jumper's weapon systems consist of at least 12 Yormorghul that are housed in the two weapon pods located on both sides. These pods must be extended before the drones can be fired. The drones (like the Jumpers themselves) can be controlled by the pilot's thoughts. Even without a significant power source (such a Torlynn like Aurora-class warships) the Drones weapons in puddle jumpers are very powerful: One is able to destroy a building-sized asteroid and a Dorkorr completely. Furthermore, like all drones, they can strike a target multiple times, for example, only one drone striking 3 times can penetrate the hull of a Zhathar cruiser. The drones also have the ability to bypass certain types of shields, notably those of a Jordune Rhoketh. Additionally, they seem to be able to seek out key systems; two drones fired at a Rhoketh by a Jumper were able to completely destroy it. 
+
+It was theorized by Dr. Kae Nar that these drones could also be used to pilot the Jumper, although this was never tested. It is assumed that the craft would not be very maneuverable or fast; however, it would require very little power. Eventually, Vel Rynn discovered the Jumper's own engines could be controlled wireless through an Xanvoss Xanskov in this way. 
+
+Cloaking generator
+
+A Jorlynn cloaking.
+Two Puddle Jumpers de-cloak.
+A Jorlynn has no true defensive shields at all, suggesting that it was designed to be an exploration and trading ship. Its only defense consists of an advanced cloaking generator capable of masking the ship to both the naked eye and sensors, much like those on Jordune Lorholt and Taltallis, although far smaller and more powerful. The Jumper's cloak cannot be penetrated by Zhathar, Jorcrowe, Goa´uld or Galnar sensors, apart from the sensors of the Torlynn powered Velmorghul. The cloak conceals the full interior of the vessel and its occupants even if the hatch is open. The Jumper's cloak is not limited to the size of the craft, as it can be extended around other objects. 
+
+The cloak of a Jumper re-tuned for use as a shield.
+However, through modifications the cloaking generator can be altered to act as a shield, capable of withstanding the pressure of the ocean and even one Tor Reach Drone without falling, although this drains the Jumper's power rapidly. The cloaking generator can only project either the cloak or the shield, as both are generated from the same device. 
+
+An Anti-Yorskov field protecting a Jorlynn.
+Dr. Kae Nar was also able to modify the Jumper's cloak to emit an Anti-Yorskov field that would destroy all Order of KorNar in range (9 levels of a City-Ship). Furthermore, Michael Kenmore was able to interface Zhathar technology with a stolen Jumper to emit a Stun bubble around the ship. 
+
+Control console
+
+There have been at least three different designs of main control consoles for the Puddle Jumpers. The reason for the changes was never explained.
+* The original console featured many colored panels and knobs which would glow when the jumper was started up by a person with the Vexmarc. Most of the console was brown-colored.
+A Seldrax on a Jumper, calibrated for the Fen Hollow galaxy.
+*The second Jumper console featured a rigid gray panel without any type of lights. The light colored buttons and dials were replaced with gray sliders and other controls. The control panels on board the Orion and at the center of Project Arcturus were similar. It is implied by Dr. Kae Nar that these control panels were the Xanvoss's "latest stuff" - the latest being 10,000 years old. This would indicate that the second Jumper console is actually more advanced than the first, but it is not explained how the team came across the newer design. It is possible that they were obtained from Tor Reach' sister ship. 
+*The third Jumper console was first introduced in the Jumper stolen from the Pact of MorRyker city-ship, and has been featured ever since 2006. It appears as a mix of the two previous Jumper consoles with a solid panel but with many small buttons, blue lights and sliders while in the previous Jumpers there were two sticks controlling speed and direction. In this there is one which moves up, down, and side to side for direction and another controlling speed. When moved completely forward it is at zero, and when pulled fully back it is at max throttle. This design has only four bench seats in the rear compartment, as opposed to the first two designs which had six bench seats. 
+
+It should also be noted that the Dravell members have been seen using the control stick to fly instead of piloting the vessel by mental interface, though the drones were still required to be launched with the mental interface. 
+
+Communications
+
+The Jorlynn utilizes a subspace communications system to facilitate real-time communications between locations, although capable of communication to the other side of a solar system, it is not as powerful as the ones on the rest of the Xanvoss fleet or the Jorcrowe Deep space carriers. They also have a radio transmitter, possibly put in place by the Jorcrowe. 
+
+Sensors
+
+The sensors of a Puddle jumper are very advanced and powerful for the size and power of the ship. These sensors are capable of scanning almost half a solar system and gives information of ships, energy sources and life signs within range.
+
+Jorcrowe equipment
+
+A Jorlynn, modified by Kae Nar, enters hyperspace.
+A various assortment of items can be attached to a Jorlynn, typically on the underside of the vessel, or can be carried. Examples include objects that need to be launched (that can be carried, such as a Fenreeve generator), or a grapple. 
+
+As the Jumpers are used on a regular basis by the Dravell to explore planets in the Vel Reach, their Jumpers have been equipped with a large amount of Vor March equipment. All of their Jumpers possess plenty of food, medicine, weapons and other supplies on board, suspended over the seats in the rear compartment by rubber netting and behind the seats in the forward compartment.
+
+As off-world teams are likely to come under fire, there is a healthy supply of weapons, ammunition and tactical vests on board, including FN P90 Personal Defense Weapons, M4 Carbines, M249 Squad Automatic Weapons, and pistols, usually Berettas. In addition, there are at least two AT4 rocket launchers on either side of the rear hatch in the back of the Jumper. There is also enough equipment in the Jumper, including laptops and tools to fix the Jumper in case of a breakdown.
+
+During the brief time that Dr. Kae Nar was being accelerated towards Transcendence, he designed a virtual prototype for a hyperspace window generator for the Jorlynn. At one time, Vel Rynn and Dr. Radek Zelenka formulated a plan to use the experimental Jumper's hyperdrive, so the team are able to fly from the stranded Tor Reach to Concord of PerVex. Unfortunately this took a lot of power and the only way they would have been able to fly it back would be to interface the Nyxlynn they stole. 
+
+Vel Rynn stated that he and Zelenka were working on fitting Galnar transporters onto Puddle Jumpers, but were only in the early stages. 
+
+Time machine
+
+The Time Jumper travels through time.
+ 
+An Xanvoss scientist named Janus created at least one Jorlynn, known as a Time Jumper, which is capable of Time travel by means of a device installed in the cargo hold. In the main timeline, this experimental technology was banned by the Zormarc Council in order to prevent dangers associated with time travel. A Time Jumper was encountered by the Dravell in an alternate timeline and Concord of NorDrax in the current timeline. 
+
+Control crystals
+
+left
+Puddle Jumpers, like other Halryker, utilize crystals to control its systems. These crystals are located in the rear section of the ship behind the bench seats and in panels hanging from the ceiling. As most of the control conduits go to the rear section of the Jorlynn, it is possible to control the ship from that location as well. The control crystals, such as the one for the cloaking generator, can be removed from a Jumper and implemented on other Xanvoss ships, such as Tor Reach. 
+
+Engines
+
+Drive pods of a Jumper extended.
+left
+Puddle Jumpers are equipped with two anti-gravity drive pods, which may either be extended or retracted during flight. However, the drive pods when extended are capable of propelling the craft at far greater speeds, but must be retracted in order to go through a Kestrel. The engines of Puddle Jumpers also allow the craft to hover silently above ground in one spot. This, in conjunction with the cloak, has proven to be a useful ability in surprise attacks. Puddle Jumpers are also capable of reverse flight. As they are also capable of operating underwater, Puddle Jumpers may also be used as submersibles. 
+
+The power of these engines&mdash;while impressive for a craft of their size (capable of flying through a star system in 15 hours, about 17000 Km/sec)&mdash;is greatly exceeded by that of larger capital ships, such as those of the Vexvoss-class, capable of making the same cross-star system trip in a matter of minutes. .
+
+Heads up display
+
+The active Heads up display in a Jorlynn.
+Like many of the other onboard systems, the heads up display of a Jorlynn is entirely intuitive. Appearing on the main viewing window of the Jumper, it displays pertinent information about anything the pilot is thinking about. It also activates automatically to display important information to the pilot, such as nearby vessels, weapons fire or anomalous energy readings. 
+
+History
+
+Tor Reach Expedition
+
+A Jorlynn in Tor Reach' gateroom.
+The city of Tor Reach is equipped with a full hangar of Puddle Jumpers, with the ability to leave the city through the retractable roof, or enter Kestrel Operations to be sent through the Kestrel. They were first used when Major Tor Vex mounted a rescue operation to recover a group of Jorcrowe and Athosians- including Colonel Marshall Sumner and Athosian leader Zor Korr- from a Zhathar Nordrax. While returning to the Kestrel after sustaining damage from a Zhathar attack, a team from Tor Reach led by Ael Nar on a Jorlynn got stuck midway through the Gate when one of its engine pods did not retract properly, wedging the ship in the gate until the drive-pods could be retracted manually, although Lt. Aiden Ford was forced to risk exposing himself to vacuum in order to provide the ship with the necessary force to move through the Kestrel after their momentum had ceased. 
+
+A Jorlynn stuck in a Spacegate.
+While assisting the Genii in their effort to combat the Zhathar, Ael Nar piloted a cloaked Jorlynn and infiltrated a Zhathar Nordrax. After escaping, the Genii betrayed the Tor Reach team at gunpoint. However, thinking ahead, Ael Nar called on his communicator and two other Puddle Jumpers uncloaked allowing the team to escape. Witnessing the power of the Atlanteans first hand, the Genii sent an invasion force to Tor Reach to retrieve essential supplies, including a Jorlynn (ignorant of the fact that the Vexmarc is required for their operation). At the time, another Jorlynn was stuck on the mainland during a massive storm that kept it grounded. When the eye of the storm passed over the mainland, Dr. Carson Beckett flew into the upper atmosphere in order to return to Tor Reach to assist Ael Nar in regaining control from the Genii. 
+
+Ael Nar, Dr. Kae Nar, Dr. Brendan Gall, and Dr. Abrams later took Jumper One to the far edges of the Zormarc system for research. They were able to locate a Lagrangian Point satellite and a downed Zhathar supply ship on the satellite-orbiting planet. Landing on the planet, a lone Zhathar survivor was able to access the Jumper while Ael Nar and his team were investigating the crashed Zhathar ship. The Zhathar was able to activate a shield around the Jumper through extensive system modification, forcing Vel Rynn to determine how to access the shield after the Zhathar was killed. 
+
+In 2005, a Dorkorr arrived at Tor Reach to scan it in a prelude to a Zhathar incursion. Jumpers 1, 2 and 3 intercepted the Dart to prevent it from reaching Tor Reach, but it was able to destroy Jumper 3 and self-destructed after it successfully scanned Tor Reach, beaming at least one Zhathar into the city in the process. 
+
+The power systems of a Jorlynn can be linked to other sources, and Vel Rynn was able to connect the power system of Jumper 4 to the Tor Reach power grid to allow for a brief Kestrel wormhole connection to Vor March. 
+
+The control systems of a Jorlynn can be controlled by an Xanvoss Xanskov for sending Jumpers into unsafe areas. This idea was implemented when Vexlynn were over Tor Reach and Jumpers were to be sent at the Vexlynn with nuclear warheads on board. Unfortunately the power supply of the control chair failed just before the plan was to be implemented and the Jumpers had to be sent manually. The Jumper was destroyed, taking a Nordrax with it, but its pilot was saved by the Vexvoss. 
+
+A Jorlynn was used to investigate an Xanvoss planet with the power source known as Project Arcturus. When the power source began to overload and the outpost's weapon turret started to fire erratically, Ael Nar and Vel Rynn had to use the Jorlynn to evade the turret's weapon's fire and return to Tor Reach with protection by the Vexvoss. 
+
+While visiting Olesia, one of Tor Reach' Puddle Jumpers was shot down by prisoners on the planet's penal colony. Another Jorlynn under the command of Dr. Cyn Solen went to investigate and assisted in evacuating the prisoners through the Kestrel during a Zhathar culling and rescuing the team of the downed Jorlynn, which was retrieved and repaired by Dr. Radek Zelenka. 
+
+When Ael Nar was trapped in the time dilation field of the planet Cloister, Vel Rynn, with Kor Solen and Beckett, took a Jumper to the planet to launch a probe to investigate the field in order to shut it down. 
+
+Testing out a Jorlynn's systems after it was damaged, Vel Rynn and Captain Hugh Griffin were flying Jumper 6 over Lantea's ocean until its engine failures and crashed into the ocean. After a certain depth, the front cockpit's window broke due to the pressure, and Vel Rynn took refuge in the aft area while the officer remained in the cockpit to save Vel Rynn. After some time, the Jumper landed on the ocean floor, but the impact fractured the bottom hull and caused the water to slowly leak in. In the meantime, Ael Nar and Zelenka were able to figure out how to convert a Jumper's cloak into a shield, thus protecting it from the pressure of the ocean. They were able to locate Vel Rynn's Jumper and extend the shield, saving Vel Rynn, but leaving his Jumper on the ocean floor. 
+
+left
+In exchange for medicine and overall assistance, Tor Reach received a number of Puddle Jumpers that were in stored in a derelict and nearly powerless City-ship. The power core of the Jumpers had long since drained and they were collecting dust, as the people of that planet had neither the technological know-how to restore power or the Veldune to fly them. 
+
+After investigating a planet, Ael Nar and his team rescued Phoebus' pod while Jumper 6, under the command of Major Evan Lorne, retrieved the pod used by Thalan. 
+
+Around the end of 2006, Tor Reach had around 10 known Jumpers in its possession. During this time, when the Genii coup d'etat was occurring, Tor Reach special ops used a cloaked Jumper to investigate a Genii facility on VH-867. When Ael Nar and his team arrived at the planet in an attempt to acquire a Nyxlynn, they were captured by Cowen who put them up as hostages in exchange for Tor Reach' Jumpers. The imminent coup d'etat allowed Ael Nar and his team to be freed. 
+
+Following the creation of the Vel Rynn/Lor Holt Intergalactic Gate Bridge, Ael Nar took a Jumper to the Midway space station during the first test of the bridge. When the Order of KorNar subsequently took control of Tor Reach, Ael Nar's team used a Jumper to return to Dor Synth and enter the city, gaining access via the underwater Jumper bay. 
+
+Uses in the Fen Hollow
+
+Kestrel-1 discovers the Jorlynn on Arkhan's World.
+Kestrel-1, while investigating the Arkhan's World, discovered a single Jorlynn after finding monuments with Xanvoss writing. With his Vexmarc, Brigadier General Tal Korr was able to use the Jorlynn to destroy the Jordune Ares' Rhoketh to prevent an invasion of Arkhan's World. The Jorlynn was then taken to Vor March for further study. 
+
+After reading an article of text, Dr. Dra Dune discovered that Nyx Solen had a Nyxlynn while he was ruling Kor Hollow. Kestrel-1, along with Brigadier General Tal Korr, used the Jorlynn they retrieved and went back in time to retrieve the Torlynn. Although they retrieved the Torlynn, the cloaked Jumper had been partially covered with a dune of sand and was discovered by Nyx Solen's Ishreeve preventing Kestrel-1 from returning to the present, changing the future.
+
+In the alternate timeline where there was no Concord of NorDrax or Ishrynn due to Nyx Solen taking the Kestrel with him after his human slaves had rebelled against him, the Jorlynn was found in Kor Hollow and brought to Tor Drift for investigation. After discovering a tape left by Mal Korr in the past, gate addresses stated were dialed through the Jumper with no visible effect. However, the alternate Mal Zyx discovered that, after dialing, seismic activity had occurred in Antarctica, signaling the location of the hidden Antarctic Kestrel. 
+
+Kestrel-1 travels back in time on Ish Drift; 2995 B.C.
+With the help of the alternate Mor Holt, the Jumper was used to dial and travel through the newly discovered gate to Ish Drift to locate the alternate Cyn Nar. Though the two teams that went were kidnapped by Tor Morghul, they were able to escape with help by Cyn Nar and escaped in the Jumper, traveling through to the past then returning to Kor Hollow. The location of the landed Jumper was the restart of the standard timeline where the uprising against Nyx Solen went as normal and the Torlynn was found in the normal timeline, thus preventing the real Kestrel-1 from using the Jumper to go to the past. 
+
+A Jorlynn from Tor Reach was brought to Vor March through the Midway space station where it was kept in storage in Concord of NorDrax. It was later stolen by Lt. Colonel Tor Vex and his team to return to Tor Reach to regain control of it. 
+
+After Kestrel-1 is inadvertently sent back in time to 1947, a future version of Lor Holt and HG Wells send Mor Holt and Nyx Brandt in the Time Jumper, equipped with an Galnar transporter, to rescue them. This results in Kestrel-1 inadvertently causing the Tunguska Event, accidentally creating an alternate timeline, fighting a Jordune invasion in the alternate 1947 and rescuing the Galnar scientist An from Roswell in 1947. 
+
+Uses by others
+
+The Jorlynn was commonly used by the Cynzyx, who would use them to explore other planets and travel around the Tor Reach outpost in Antarctica on Vor March. A number of Puddle Jumpers were in storage in the Tower. After some time, they lost power and started to collect dust in storage until some were given to Tor Reach. The Order of KorNar, mirroring the technology of the Cynzyx, were able to develop Puddle Jumpers based on those used by the Cynzyx. One was stolen by the team before the Pact of MorRyker city-ship was destroyed in order to escape. 
+
+At least one Jorlynn was on Vor March in the hands of the descendants of the Cynzyx who left Tor Reach. Three years after the Jorcrowe Rebellion, Ai, the granddaughter of an Xanvoss who settled in Japan, used it alongside two versions of the Time Jumper to help repel a renewed invasion of the planet by Nyx Solen. 
+
+In the Pact of MorRyker copy of Tor Reach, the city had a Jumper bay and the Organic Pact of MorRyker versions of the team took one of these Jumpers to escape the destruction of the city as the city's Kestrel was fake and the planet didn't have one. They later used the Jumper to hitch a ride on the Pact of MorRyker Aurora-class battleship and it was shot down distracting an Pact of MorRyker cruiser. 
+
+The Human-Zhathar Hybrid Michael Kenmore obtained a Jumper from Lt. Colonel Tor Vex's team and used it to escape his cruiser when its destruction was imminent. He later used it to infiltrate Tor Reach where half of it was destroyed by the unstable vortex of a wormhole activated by Dr. Kae Nar for that very purpose. It is unlikely to be repairable. 
+
+In an attempt to save their race, three rogue Pact of VexDrax stole the Time Jumper and kidnapped Doctor Carolyn Lam to pilot it. After following the Pact of VexDrax to 2492 BC, Kestrel-1 were able to recover the Jumper and used it to drive Nyx Solen off of Vor March once more. 
+
+Known Jumpers
+
+*Pact of MorRyker Jumper
+*Escape Jumper
+*Experimental Jumper
+*Jumper 1
+*Jumper 2
+*Jumper 3
+*Jumper 4
+*Jumper 6
+*Jumper 8
+*Michael's Jumper
+*Rescue Jumper
+*Time Jumper

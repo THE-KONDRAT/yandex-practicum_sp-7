@@ -11,7 +11,6 @@ HEADERS = {"User-Agent": "RAG-project-bot/1.0 (educational)"}
 OUT_DIR = Path("raw_pages")
 OUT_DIR.mkdir(exist_ok=True)
 
-# Ключевые страницы: общее, кино (1994), SG-1, Atlantis, Universe
 PAGES = [
     # --- Общее / кино ---
     "Stargate (movie)", "Stargate", "Earth",
@@ -20,7 +19,7 @@ PAGES = [
     "George Hammond", "Janet Fraiser", "Apophis",
     # --- SG-1: расы и фракции ---
     "Goa'uld", "Jaffa", "Tok'ra", "Asgard", "Ancients",
-    "Replicators", "Ori", "Nox", "Tollan", "SG-1",
+    "Replicators", "Ori", "Nox", "Tollan (people)", "Tollan (planet)", "SG-1",
     # --- SG-1: технологии и локации ---
     "Stargate Command", "Dial Home Device", "Puddle Jumper", "Milky Way",
     # --- Atlantis ---
