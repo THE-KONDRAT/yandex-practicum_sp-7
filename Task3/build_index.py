@@ -2,6 +2,7 @@ import os
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 import json
+import re
 import time
 from pathlib import Path
 import torch
@@ -20,6 +21,9 @@ CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
 USE_FP32 = True                                 # for GTX 1080 Ti fp16 was way more slowly than fp32
 BATCH = 32                                      # optimal batch size for GTX 1080 Ti was measured during 1st task execution
+
+GALLERY_RE = re.compile(r"\.(png|jpe?g|gif)\s*\|", re.I)
+MIN_CHUNK_LEN = 120
 
 def elapsed_since(start_time):
     return time.perf_counter() - start_time
@@ -43,7 +47,8 @@ def main():
     )
     ids, docs, metas = [], [], []
     for f in files:
-        pieces = splitter.split_text(f.read_text(encoding="utf-8"))
+        pieces = [p for p in splitter.split_text(f.read_text(encoding="utf-8"))
+                  if len(p.strip()) >= MIN_CHUNK_LEN and not GALLERY_RE.search(p)]
         for i, piece in enumerate(pieces):
             ids.append(f"{f.name}:{i}")
             docs.append(piece)
@@ -67,14 +72,11 @@ def main():
         print("Checking if BF16 supported...")
         if torch.cuda.is_available() and torch.cuda.is_bf16_supported():
             dtype = "bfloat16"
-            print("BF16 not supported. using FP16.")
+            print("BF16 supported. Using BF16.")
         else:
             print("BF16 is not supporting. FP16 will be used.")
 
-    model = SentenceTransformer(
-        EMBEDDING_MODEL, device="cuda",
-        model_kwargs={"dtype": dtype},
-    )
+    model = SentenceTransformer(EMBEDDING_MODEL, device="cuda", model_kwargs={"dtype": dtype},)
 
     stage_start = time.perf_counter()
     print(f"• STAGE 2 • Embeddings generation started. Chunks: [{len(docs)}] Model: [{EMBEDDING_MODEL}] Device: cuda, dtype: {dtype} Batch: [{BATCH}]")

@@ -33,7 +33,7 @@ python Task2\fetch_pages.py
   ok: Tollan (planet) -> tollan_planet.txt (6394 символов)
   ok: SG-1 -> sg_1.txt (26611 символов)
   ok: Stargate Command -> stargate_command.txt (16430 символов)
-  ok: Dial Home Device -> dial_home_device.txt (10718 символов)
+  ok: Dial Home Device -> dial_home_device.txt (10079 символов)
   ok: Puddle Jumper -> puddle_jumper.txt (24699 символов)
   ok: Milky Way -> milky_way.txt (8033 символов)
   ok: John Sheppard -> john_sheppard.txt (110639 символов)
@@ -44,7 +44,7 @@ python Task2\fetch_pages.py
   ok: Wraith -> wraith.txt (43690 символов)
   ok: Atlantis -> atlantis.txt (38139 символов)
   ok: Lantean -> lantean.txt (8967 символов)
-  ok: Zero Point Module -> zero_point_module.txt (16530 символов)
+  ok: Zero Point Module -> zero_point_module.txt (16220 символов)
   ok: Pegasus -> pegasus.txt (11733 символов)
   ok: Nicholas Rush -> nicholas_rush.txt (38008 символов)
   ok: Everett Young -> everett_young.txt (11292 символов)
@@ -63,30 +63,45 @@ python Task2\apply_terms.py
 ```
 Ожидается примерно такой вывод:
 ```shell
+  [ref] O'Neill -> nar (of Jack O'Neill)
+  [ref] O'Neills -> nar (of Jack O'Neill)
+  [ref] Jackson -> keth (of Daniel Jackson)
+  [ref] Carter -> rynn (of Samantha Carter)
+  [ref] Vala -> Cyn (of Vala Mal Doran)
+  [ref] Jonas -> Sel (of Jonas Quinn)
+  [ref] Sheppard -> ryker (of John Sheppard)
+  [ref] McKay -> Nar (of Rodney McKay)
+  [ref] Rodney -> Kae (of Rodney McKay)
+  [ref] Teyla -> Jor (of Teyla Emmagan)
+  [ref] Ronon -> Ael (of Ronon Dex)
+  [ref] Weir -> solen (of Elizabeth Weir)
+  [ref] collision on 'rynn': 'Nicholas Rush' renamed Mal rynn -> Tal Reeve
+  [ref] Rush -> Reeve (of Nicholas Rush)
+  [ref] Young -> skov (of Everett Young)
 === STATS ===
   Wraith -> Zhathar: 1052
   Atlantis -> Tor Reach: 803
-  Stargate -> Kestrel: 619
+  Stargate -> Kestrel: 617
   Earth -> Vor March: 612
-  McKay -> Vel Rynn: 564
+  McKay -> Nar: 564
   SG-1 -> Kestrel-1: 526
-  Sheppard -> Ael Nar: 520
-  Teal'c -> Cyn Nar: 476
-  Goa'uld -> Jordune: 466
-  O'Neill -> Mor Holt: 404
+  Sheppard -> ryker: 520
+  Teal'c -> Hal crowe: 475
+  Goa'uld -> Jordune: 465
+  O'Neill -> nar: 403
   Destiny -> Dorrynn: 333
-  Ronon -> Dra Vex: 325
-  Apophis -> Tor Morghul: 307
-  Rush -> Gal Dune: 304
-  Carter -> Lor Holt: 280
-  Teyla -> Yor Crowe: 277
+  Ronon -> Ael: 325
+  Apophis -> Zha voss: 307
+  Rush -> Reeve: 304
+  Carter -> rynn: 280
+  Teyla -> Jor: 277
   Asgard -> Galnar: 264
   Jaffa -> Ishreeve: 225
-  John Sheppard -> Tor Vex: 209
+  John Sheppard -> Zor ryker: 209
   Rodney McKay -> Kae Nar: 209
   [codes of planets recorded]: 68
 
-Not found (12): ['Stargate (movie)', 'Recall device', 'Inverted phase communicator', "Re'tu", 'Reetalia', 'Phase-shifting weapon', "Unas'", 'National Institute of Defense', 'Point of origin', 'dial home device', 'unas', 'BC-301']
+Not found (14): ['dial home device', 'Stargate (movie)', "Chappa'ko", 'Recall device', 'Inverted phase communicator', "Re'tu", 'Reetalia', 'ribbon device', 'Phase-shifting weapon', 'unas', "Unas'", 'National Institute of Defense', 'Point of origin', 'BC-301']
 
 Transformation done: 40 docs in knowledge_base/
 ```
@@ -110,5 +125,3 @@ Entries count: 0
 
 All clear
 ```
-
-5. ывы

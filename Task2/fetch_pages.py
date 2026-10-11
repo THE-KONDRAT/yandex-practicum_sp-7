@@ -31,8 +31,7 @@ PAGES = [
 
 # Секции, начиная с которых текст обрезается до конца страницы
 TRUNCATE_AT = re.compile(
-    r"^\s*=+\s*(Appearances|Behind the scenes|References|Links and navigation|"
-    r"Notes|See also)\s*=+\s*$",
+    r"^\s*=+\s*(Appearances|Gallery|Behind the scenes|References|Links and navigation|Notes|See also)\s*=+\s*$",
     re.M,
 )
 
@@ -110,6 +109,8 @@ def clean_wikitext(text: str) -> str:
         if re.match(r"^[a-z]{2,3}:[^\s].*$", s):
             continue
         if re.match(r"^(\*\s*)?Category:", s):
+            continue
+        if re.search(r"\.(png|jpe?g|gif|svg|webp)\s*\|", s, re.I):
             continue
         lines_out.append(re.sub(r"^:\s*", "", line))
 

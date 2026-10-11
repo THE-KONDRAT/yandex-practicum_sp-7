@@ -23,6 +23,15 @@ FRAC = ['Order', 'Concord', 'Pact', 'Compact']
 # Planet code Regex
 PLANET_CODE_RE = re.compile(r"\b[A-Z]{1,2}\d{1,2}[A-Z]-\d{3}\b")
 
+GALLERY_RE = re.compile(r"\.(png|jpe?g|gif)\s*\|", re.I)
+MIN_CHUNK_LEN = 120
+
+def gen_name_part(term: str, part: str) -> str:
+    h = int.from_bytes(hashlib.sha256(f"{term}:{part}".encode()).digest()[:8])
+    rng = random.Random(h)
+    pool = FIRST if part == "first" else LAST
+    return rng.choice(pool).title() if part == "first" else rng.choice(pool)
+
 
 def gen_name(term: str, kind: str = "tech") -> str:
     h = int.from_bytes(hashlib.sha256(term.encode()).digest()[:8])
@@ -42,32 +51,102 @@ def repl_planet_code(m: re.Match) -> str:
     return f"V{chr(65 + h)}-{code[-3:]}"
 
 
+def pick_name_part(full: str, is_first: bool) -> str:
+    return full.split()[0] if is_first else full.split()[-1]
+
+
 def resolve(seed_entries: list, corpus_texts: list[str]) -> dict[str, str]:
     resolved, used = {}, set()
+    pattern_entries = [e for e in seed_entries if "pattern" in e]
+    refs = []
+
+    # PASS 1: Common terms
     for e in seed_entries:
-        if "term" in e:
-            name = e.get("name")
-            if not name:
-                name = gen_name(e["term"], e.get("kind", "tech"))
-                salt = 0
-                while name in used:
-                    salt += 1
-                    name = gen_name(f'{e["term"]}#{salt}', e.get("kind", "tech"))
-            if name in used:
-                print(f"  [warn] ручное имя '{name}' уже занято ({e['term']})")
-            used.add(name)
-            resolved[e["term"]] = name
+        if "pattern" in e:
+            continue
+        t = e["term"]
+
+        if "first_of" in e or "last_of" in e:   # links
+            refs.append(e)
+            continue
+
+        # 1. name
+        if e.get("name"):
+            name = e["name"]
+        elif e.get("kind") == "person":
+            name = (f'{e.get("first") or gen_name_part(t, "first")} '
+                    f'{e.get("last") or gen_name_part(t, "last")}')
         else:
-            pat = re.compile(e["pattern"])
-            for text in corpus_texts:
-                for m in pat.finditer(text):
-                    key = m.group(0)
-                    resolved[key] = pat.sub(
-                        lambda mm, t=e["template"]: t.format(*mm.groups()), key)
-    # store planet codes
+            name = gen_name(t, e.get("kind", "tech"))
+
+        # 2. name deduplication
+        if e.get("name"):
+            if name in used:
+                print(f"  [warn] user specified name '{name}' has already  taken ({t})")
+        else:
+            salt = 0
+            while name in used:
+                salt += 1
+                name = gen_name(f"{t}#{salt}", e.get("kind", "tech"))
+        used.add(name)
+
+        # 3. terms with synonyms are reduced to a single name
+        resolved[t] = name
+        for syn in e.get("synonyms", []):
+            if syn in resolved and resolved[syn] != name:
+                print(f"  [warn] synonym '{syn}' has already mapped to '{resolved[syn]}' "
+                      f"(pass for '{t}')")
+                continue
+            resolved[syn] = name
+
+    # PASS 2: name parts
+    part_owner: dict[str, str] = {}
+
+    for e in refs:
+        parent = e.get("first_of") or e.get("last_of")
+        is_first = "first_of" in e
+
+        part = pick_name_part(resolved[parent], is_first)
+
+        if part in part_owner and part_owner[part] != parent:
+            # When firts/last name collision found full name regeneration needed
+            salt = 1
+            while True:
+                new_name = gen_name(f"{parent}#{salt}", "person")
+                if pick_name_part(new_name, is_first) not in part_owner \
+                        and new_name not in used:
+                    break
+                salt += 1
+            print(f"  [ref] collision on '{part}': '{parent}' renamed "
+                  f"{resolved[parent]} -> {new_name}")
+            used.discard(resolved[parent])   # release old name
+            used.add(new_name)
+            resolved[parent] = new_name
+            # reissue all refs
+            for e2 in refs:
+                if (e2.get("first_of") or e2.get("last_of")) == parent:
+                    resolved[e2["term"]] = pick_name_part(
+                        new_name, "first_of" in e2)
+
+        part = pick_name_part(resolved[parent], is_first)
+        part_owner[part] = parent
+        resolved[e["term"]] = part
+        print(f'  [ref] {e["term"]} -> {part} (of {parent})')
+
+    # PASS 3: pattern-records (SG-N)
+    for e in pattern_entries:
+        pat = re.compile(e["pattern"])
+        for text in corpus_texts:
+            for m in pat.finditer(text):
+                key = m.group(0)
+                resolved[key] = pat.sub(
+                    lambda mm, t=e["template"]: t.format(*mm.groups()), key)
+
+    # PASS 4: planet codes
     for text in corpus_texts:
         for m in PLANET_CODE_RE.finditer(text):
             resolved.setdefault(m.group(0), repl_planet_code(m))
+
     return resolved
 
 
@@ -104,6 +183,9 @@ def main():
     for title, fname in manifest.items():
         text = corpus[fname]
         text = text.replace("\u2019", "'").replace("\u2018", "'")
+
+        text = re.sub(r"\n{3,}", "\n\n", text)
+        text = re.sub(r"[ \t]+\n", "\n", text)
 
         for key, pat, repl in entries:
             text, n = pat.subn(repl, text)
