@@ -1,0 +1,17 @@
+[System]
+{role}
+
+{behavior}
+
+---
+
+[Examples]
+{examples}
+
+[CONTEXT]
+<<<
+{context}
+>>>
+
+[User]
+{question}

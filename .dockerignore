@@ -1,0 +1,13 @@
+.venv/
+.git/
+**/__pycache__/
+**/*.pyc
+**/.idea/
+**/bin/
+**/obj/
+models/
+raw_pages/
+audio/
+tmp/
+.env
+*.log
