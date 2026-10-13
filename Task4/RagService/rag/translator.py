@@ -5,10 +5,11 @@ from pathlib import Path
 TERMS = json.loads(Path("terms_map.json").read_text(encoding="utf-8"))
 
 
-def build_translation_rules(mapping: dict) -> list:
+def build_translation_rules(mapping: dict, ignore_case: bool = False) -> list:
     pairs = sorted(mapping.items(), key=lambda kv: -len(kv[0]))
+    flags = re.IGNORECASE if ignore_case else 0
     return [
-        (re.compile(r"(?<![A-Za-z])" + re.escape(k) + r"(?![A-Za-z])"), v)
+        (re.compile(r"(?<![A-Za-z])" + re.escape(k) + r"(?![A-Za-z])", flags), v)
         for k, v in pairs
     ]
 
@@ -28,7 +29,7 @@ def _canonical_reverse() -> dict:
 
 
 TO_FICTION = build_translation_rules(TERMS)
-TO_REAL = build_translation_rules(_canonical_reverse())
+TO_REAL = build_translation_rules(_canonical_reverse(), ignore_case=True)
 
 
 def translate(text: str, rules=TO_FICTION) -> str:

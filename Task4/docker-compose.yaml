@@ -4,13 +4,11 @@ services:
       context: ..
       dockerfile: Task4/RagService/Dockerfile
     environment:
-      #RAG_DEVICE: cpu
       RAG_DEVICE: cuda
       RAG_DTYPE_EMBED: float32
-#     RAG_DTYPE_EMBED: float16
-      #RAG_DTYPE_LLM: float32
       RAG_DTYPE_LLM: float16
       RAG_CONTEXT_CHUNKS: 5
+      RAG_TEMPERATURE: "0.15"
       RAG_TTS: piper
       RAG_PIPER_MODEL: /app/models/en_US-lessac-medium.onnx
       RAG_STT_MODEL: base

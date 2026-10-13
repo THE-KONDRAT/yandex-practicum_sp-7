@@ -1,6 +1,7 @@
 import os
 import time
 import re
+import json
 
 from .config import SETTINGS, Settings, load_few_shot, load_text
 from .lang_translation import looks_russian
@@ -28,30 +29,17 @@ FEW_SHOT_FALLBACK = [
      "from subspace and outputs it as electrical power."),
 ]
 
-def _extract_answer_block(raw: str) -> str:
-    parts = re.split(r"(?:Reasoning|Рассуждение):", raw, maxsplit=2)
-    text = ("Reasoning:" + parts[1]) if len(parts) >= 2 else raw.strip()
-
-    for cut in ("Я не знаю", "Plain text only", "To:", "To continue", "following the given structure",
-                "Sources:", "Assistant:", "Reasoning:", "Рассуждение:"):
-        idx = text.find(cut)
-        if idx > 0:
-            text = text[:idx]
-    return text.strip()
-
-def _format_answer_block(text: str) -> str:
-    m = re.match(r"\s*Reasoning:\s*(.*?)\s*(?:Answer|Ответ):\s*(.*?)\s*$", text, re.S)
-    if not m:
-        return text.strip()
-    return f"Reasoning:\n{m.group(1).strip()}\n\nAnswer:\n{m.group(2).strip()}"
-
-def _translate_answer_block(translator, text: str) -> str:
-    m = re.match(r"\s*Reasoning:\s*(.*?)\s*(?:Answer|Ответ):\s*(.*?)\s*$", text, re.S)
-    if not m:
-        return translator.to_ru(text)
-    reasoning = translator.to_ru(m.group(1).strip())
-    ans = translator.to_ru(m.group(2).strip())
-    return f"Рассуждение:\n{reasoning}\n\nОтвет:\n{ans}"
+def _parse_json_answer(text: str) -> dict | None:
+    text = text.strip()
+    text = re.sub(r"^```(?:json)?|```$", "", text, flags=re.M).strip()
+    start = text.find("{")
+    if start < 0:
+        return None
+    try:
+        obj, _ = json.JSONDecoder().raw_decode(text[start:])
+    except json.JSONDecodeError:
+        return None
+    return obj if isinstance(obj, dict) else None
 
 def _answer_is_empty(text: str) -> bool:
     m = re.search(r"(?:Answer|Ответ):\s*(.*)$", text, re.S)
@@ -133,17 +121,47 @@ class RagPipeline:
         stages["llm"] = get_elapsed()
 
         t = time.perf_counter()
-        answer = _extract_answer_block(to_real(raw) if use_term_translation else raw)
-        answer = _format_answer_block(answer)
-        if answer_lang:
-            answer = _translate_answer_block(self.translator, answer)
+        answer_text = to_real(raw) if use_term_translation else raw
+        obj = _parse_json_answer(answer_text)
 
-        if _answer_is_empty(answer):
+        # try to prevent hallucinations
+        if obj is None:
+            raw2 = self.llm.complete(
+                prompt_text + "\nRemember: output ONLY one JSON object, nothing else.", max_new_tokens=self.settings.max_new_tokens,
+                temperature=0.0, top_p=self.settings.top_p, stop_strings=self.stop_strings)
+            obj2 = _parse_json_answer(to_real(raw2) if use_term_translation else raw2)
+            if obj2 is not None:
+                raw, obj = raw2, obj2
+            else:
+                raw = raw2
+
+        if obj is None or not str(obj.get("answer", "")).strip():
             result.update(answer=DONT_KNOW, internal_answer=raw, sources=[])
-            result["stages"]["total"] = round(time.perf_counter() - t0, 2)
             return result
 
+        reasoning = str(obj.get("reasoning", "")).strip()
+        ans = str(obj["answer"]).strip()
+
+        if "не знаю" in ans.lower() or "no mention" in ans.lower() or "not mentioned" in ans.lower() or "not in the context" in ans.lower():
+            result.update(answer=DONT_KNOW, internal_answer=raw, sources=[])
+            return result
+
+        picked = []
+        idxs = obj.get("sources", [])
+        if isinstance(idxs, list):
+            for i in idxs:
+                if isinstance(i, int) and 1 <= i <= len(chunks):
+                    title = (to_real(chunks[i - 1]["meta"]["title"]) if use_term_translation else chunks[i - 1]["meta"]["title"])
+                    if title not in [s["title"] for s in picked]:
+                        picked.append({"title": title, "dist": round(chunks[i - 1]["dist"], 4)})
+        if not picked and sources:
+            picked = sources[:1]
+
+        answer = f"Reasoning:\n{reasoning}\n\nAnswer:\n{ans}"
+        if answer_lang:
+            answer = f"Рассуждение:\n{self.translator.to_ru(reasoning)}\n\nОтвет:\n{self.translator.to_ru(ans)}"
+
         stages["postprocess"] = get_elapsed()
-        result.update(answer=answer, internal_answer=raw)
+        result.update(answer=answer, sources=picked, internal_answer=raw)
         result["stages"]["total"] = round(time.perf_counter() - t0, 2)
         return result

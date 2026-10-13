@@ -300,3 +300,158 @@ _Стоит учитывать, что замеры выполнены в сре
   - Генерация заняла 63.9 секунды этап эмбеддингов: 53.2 с, ~63 чанка/с на GTX 1080 Ti)
 Описание процесса создания векторного индекса приведено в [README](Task3/README.md)
 
+# Задание 4. Реализация RAG-бота с техниками промптинга
+Описание процесса развёртывания сервисов приведено в [README](Task4/README.md)
+Примеры диалогов (вопрос-ответ):
+```palin
+Я: What od Atlantis?
+TestBot: Reasoning:
+Fragment 2 mentions that Atlantis has 'advanced technology', including the Stargate and Puddle Jumpers.', Fragment 4 discusses the construction of the Icarus Base for researching the Destiny address.
+
+Answer:
+Atlantis is described as an advanced ship carrying various technologies such as the Stargate and Puddle Jumpers.
+
+Sources:
+ — Atlantis
+```
+
+```palin
+Я: What is DHD?
+TestBot: Reasoning:
+Fragment 5 defines Dial Home Device as 'large, pedestal-shaped computers' while Fragment 2 explains their role in the network and how they operate.
+
+Answer:
+Dial Home Device are large, pedestal-shaped computers located on nearly every planet in the Stargate Network. They serve multiple purposes including establishing connections between gates and wormholes, acting as both a control device and a power source. Each Dial Home Device contains control crystals designed to store memory and information; despite their simple appearance, they can perform intricate calculations quickly due to assistance from automated updates. These systems use external symbols representing star constellations near a central activation button to guide users through the process of connecting to specific destinations via gates or wormholes.
+
+Sources:
+ — Dial Home Device
+ — Stargate
+```
+
+```plain
+Я: Where Atlantis is?
+TestBot: Reasoning:
+The context mentions that Atlantis is located between the Super-hive and Earth, and it returned to the Pegasus galaxy after spending six months on Earth. It also indicates that Atlantis had significant battles involving drones and nuclear weapons.
+
+Answer:
+Atlantis is a place situated between the Super-hive and Earth planets. It engaged in conflicts including drone attacks and used nuclear weaponry during its stay there. After returning to the Pegasus galaxy, it faced attempts by the IOA to take control but managed to escape.
+
+Sources:
+ — Atlantis
+ — Earth
+```
+
+```plain
+Я: How is DHD looks?
+TestBot: Reasoning:
+Fragment 4 mentions that Lorthars are 'large, pedestal-shaped computers'. Fragment 5 provides more details about the appearance and markings on them.
+
+Answer:
+Lorthars are large, pedestal-shaped computers. On them, you can see external symbols representing star constellations surrounding a central activation button.
+
+Sources:
+ — Dial Home Device
+ — Stargate
+```
+В данном случае перевод из внутреннего языка не выполнился из-за того, что LLM изменила форму слова, и в обратном словаре не было найдено соответствия:
+```json
+  "DHD": "Lorthar",
+  "DHDs": "Lorthar",
+  "Dial Home Device": "Lorthar",
+  "dial home device": "Lorthar",
+  "Dial Home Devices": "Lorthar",
+```
+
+```plain
+Я: Can i found it at the Atlantis?
+TestBot: Reasoning:
+Fragment 4 mentions that Atlantis contains Stargates among other technologies.
+
+Answer:
+Yes, you can find Stargates at Atlantis. Additionally, Atlantis houses various other advanced technologies such as drones and a stardrive.
+
+Sources:
+ — Ronon Dex
+```
+Тут я не уточнил, что именно я могу найти на Атлантиде (забыв, что у чата нет контекста), и это можно рассматривать как пример галлюцинации используемой LLM.
+
+```plain
+Я: Can i found DHD on Destiny?
+TestBot: Reasoning:
+Fragment 2 mentions that the Dial Home Device on Destiny allows users to enter addresses but requires awareness of intended addresses due to the large number of possibilities.
+
+Answer:
+The Dial Home Device on Destiny allows users to input addresses but necessitates prior knowledge of which address they wish to use; otherwise, continuous dialing over extended periods would yield unsuccessful sets of coordinates.
+
+Sources:
+ — Dial Home Device
+```
+
+```plain
+Я: How Elizabeth Weir died?
+TestBot: Reasoning:
+Fragment 2 mentions that Elizabeth Weir died by day's end due to being weak, while Fragment 4 indicates she survived becoming a member or leader of a faction of Asurans.
+
+Answer:
+According to Fragment 2, Elizabeth Weir died by day's end due to weakness. However, according to Fragment 4, she survived and joined the Asurans, which later split off from the main group.
+
+Sources:
+ — Elizabeth Weir
+```
+
+Ввод русского текста обрабатывается заметно хуже из-за необходимости трансляции терминов в специфичной сеттингу форме, так как транслятор во внутренний язык работает на словаре соответствий, и ему важно точное совпадение. Тем не менее, некоторые вопросы задать можно. С ответами ровно та же картина, но в обратную сторону, из-за этого качество русскоязычного диалога заметно ниже.
+```plain
+Я: Кто такая Саманта Картер?
+TestBot: Рассуждение:
+Сэмптон Картер была вторым по стати за восемь лет у SG-1 и затем стала командиром на один год.
+
+Ответ:
+SG-1 был командой под руководством Сэмпсомонды Картры. Она исполняла обязанности заместителя командира восемь лет и затем заняла командование год.
+
+Sources:
+ — Samantha Carter
+```
+
+В некоторых случаях несмотря на наличие текста в базе знаний вопросы на русском языке будут оставлены без ответа:
+```plain
+Я: Где находятся Звёздные Врата?
+TestBot: Я не знаю
+Я: Where stargate is located?
+TestBot: Reasoning:
+Fragment 2 mentions that the original Stargate, now called the Alpha Gate, was found in Giza and moved to Earth.
+
+Answer:
+The Stargate is located both in Giza and Earth.
+
+Sources:
+ — Stargate
+```
+
+Примеры случаев, когда бот не знает ответ.
+```plain
+Я: When Elon Musk was successfully launched his Starship?
+TestBot: Я не знаю
+```
+
+```plain
+Я: How many calories are in one watt-hour?
+TestBot: Я не знаю
+```
+
+```plain
+Я: Where is the city Kazan located?
+TestBot: Я не знаю
+```
+
+В некоторых случаях модель галлюцинирует, и выдаёт что-то подобное. Можно усиливать эвристику, но в данном случае, мне кажется, оптимальным будет использование более продвинутой LLM.
+```plain
+Я: What PC games based on Stargate setting do you know?
+TestBot: Reasoning:
+There is no mention of any PC game being developed for the Stargate setting in the provided context.
+
+Answer:
+To my best knowledge, there aren't any PC games based on the Stargate setting.
+
+Sources:
+ — Nox
+```
