@@ -166,6 +166,7 @@ def parse_args():
     p.add_argument("--out-dir", default="knowledge_base")
     p.add_argument("--terms-out", default="terms_map.json")
     p.add_argument("--seed", default="Task2/terms_seed.json")
+    p.add_argument("--no-clear", action="store_true", help="do not delete existing files in out-dir")
     return p.parse_args()
 
 
@@ -177,8 +178,7 @@ def main():
 
     manifest = json.loads((RAW_DIR / "manifest.json").read_text(encoding="utf-8"))
 
-    corpus = {fname: (RAW_DIR / fname).read_text(encoding="utf-8")
-              for _, fname in manifest.items()}
+    corpus = {fname: (RAW_DIR / fname).read_text(encoding="utf-8") for _, fname in manifest.items()}
     corpus_texts = list(corpus.values())
 
     seed = json.loads(SEED_PATH.read_text(encoding="utf-8"))
@@ -193,8 +193,9 @@ def main():
     new_manifest = {}
 
     # clear old files
-    for old in OUT_DIR.glob("*.txt"):
-        old.unlink()
+    if not args.no_clear:
+        for old in OUT_DIR.glob("*.txt"):
+            old.unlink()
 
     for title, fname in manifest.items():
         text = corpus[fname]
@@ -212,9 +213,10 @@ def main():
         (OUT_DIR / new_fname).write_text(text, encoding="utf-8")
         new_manifest[new_title] = new_fname
 
-    (OUT_DIR / "manifest.json").write_text(
-        json.dumps(new_manifest, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    out_manifest_path = OUT_DIR / "manifest.json"
+    existing = json.loads(out_manifest_path.read_text(encoding="utf-8")) if (args.no_clear and out_manifest_path.exists()) else {}
+    existing.update(new_manifest)
+    out_manifest_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
 
     Path(args.terms_out).write_text(json.dumps(TERMS, ensure_ascii=False, indent=2), encoding="utf-8")
 

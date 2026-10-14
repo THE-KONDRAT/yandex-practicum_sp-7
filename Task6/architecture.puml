@@ -1,0 +1,16 @@
+@startuml
+folder "Источник данных\nknowledge_base/ (docs/)" as SRC
+node "indexer (cron-контейнер)\n0 6 * * * update_index.py" as CRON
+node "ragservice\n(FastAPI + RAG)" as BOT
+database "ChromaDB\nindex/chroma_db" as DB
+file "update.log" as LOG
+file "update_state.json" as ST
+
+CRON --> SRC : сканирование\n(mtime+size vs state)
+CRON --> CRON : разбиение на чанки\n(RecursiveCharacterTextSplitter)
+CRON --> CRON : генерация эмбеддингов\n(Qwen3-Embedding-0.6B)
+CRON --> DB : delete(source)→add (upsert)
+CRON --> LOG
+CRON --> ST : новое состояние
+BOT --> DB : поиск (runtime)
+@enduml

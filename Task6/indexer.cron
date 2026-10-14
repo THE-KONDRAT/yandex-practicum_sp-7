@@ -1,0 +1,1 @@
+0 4 * * * cd /app && python Task6/update_index.py >> /app/Task6/update.log 2>&1
