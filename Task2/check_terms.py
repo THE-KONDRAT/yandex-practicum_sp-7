@@ -1,4 +1,5 @@
 import re
+import sys
 from pathlib import Path
 
 LEFTOVER = [
@@ -32,7 +33,8 @@ LEFTOVER = [
 PATTERNS = {t: re.compile(t) for t in LEFTOVER}
 
 def main():
-    files = sorted(Path("knowledge_base").glob("*.txt"))
+    kb_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("knowledge_base")
+    files = sorted(kb_dir.glob("*.txt"))
     total = len(files)
 
     # STAGE 1. Collect data

@@ -1,8 +1,12 @@
 import json
+import os
 import re
 from pathlib import Path
 
-TERMS = json.loads(Path("terms_map.json").read_text(encoding="utf-8"))
+KB_DIR = os.getenv("RAG_KB_DIR", "knowledge_base")
+TERMS_MAP_PATH = os.getenv("RAG_TERMS_MAP", "terms_map.json")
+
+TERMS = json.loads(Path(TERMS_MAP_PATH).read_text(encoding="utf-8"))
 
 
 def build_translation_rules(mapping: dict, ignore_case: bool = False) -> list:
@@ -15,7 +19,7 @@ def build_translation_rules(mapping: dict, ignore_case: bool = False) -> list:
 
 
 def _canonical_reverse() -> dict:
-    titles = set(json.loads(Path("knowledge_base/manifest.json").read_text(encoding="utf-8")).keys())
+    titles = set(json.loads(Path(KB_DIR, "manifest.json").read_text(encoding="utf-8")).keys())
     by_value: dict[str, list[str]] = {}
     for k, v in TERMS.items():
         by_value.setdefault(v, []).append(k)

@@ -8,7 +8,7 @@ services:
       RAG_DTYPE_EMBED: float32
       RAG_DTYPE_LLM: float16
       RAG_CONTEXT_CHUNKS: 5
-      RAG_TEMPERATURE: "0.15"
+      RAG_TEMPERATURE: 0.12
       RAG_TTS: piper
       RAG_PIPER_MODEL: /app/models/en_US-lessac-medium.onnx
       RAG_STT_MODEL: base

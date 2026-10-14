@@ -1,3 +1,4 @@
+import argparse
 import hashlib
 import json
 import random
@@ -158,7 +159,22 @@ def sanitize_filename(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", title.lower()).strip("_")
 
 
+
+def parse_args():
+    p = argparse.ArgumentParser()
+    p.add_argument("--raw-dir", default="raw_pages")
+    p.add_argument("--out-dir", default="knowledge_base")
+    p.add_argument("--terms-out", default="terms_map.json")
+    p.add_argument("--seed", default="Task2/terms_seed.json")
+    return p.parse_args()
+
+
 def main():
+    args = parse_args()
+    RAW_DIR, OUT_DIR = Path(args.raw_dir), Path(args.out_dir)
+    OUT_DIR.mkdir(exist_ok=True)
+    SEED_PATH = Path(args.seed)
+
     manifest = json.loads((RAW_DIR / "manifest.json").read_text(encoding="utf-8"))
 
     corpus = {fname: (RAW_DIR / fname).read_text(encoding="utf-8")
@@ -200,9 +216,7 @@ def main():
         json.dumps(new_manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    Path("terms_map.json").write_text(
-        json.dumps(TERMS, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    Path(args.terms_out).write_text(json.dumps(TERMS, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("=== STATS ===")
     for k, v in sorted(stats.items(), key=lambda x: -x[1])[:20]:

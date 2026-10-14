@@ -12,8 +12,9 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 
 
-KB_DIR = Path("knowledge_base")
-DB_DIR = Path("index/chroma_db")
+KB_DIR = Path(os.getenv("RAG_KB_DIR", "knowledge_base"))
+DB_DIR = Path(os.getenv("RAG_CHROMA_DIR", "index/chroma_db"))
+
 COLLECTION = "knowledge_base"
 
 EMBEDDING_MODEL = "Qwen/Qwen3-Embedding-0.6B"

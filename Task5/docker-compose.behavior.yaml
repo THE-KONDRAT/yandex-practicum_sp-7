@@ -1,0 +1,11 @@
+services:
+  ragservice:
+    environment:
+      RAG_CHROMA_DIR: index/chroma_db_infected
+      RAG_KB_DIR: Task5/knowledge_base_infected
+      RAG_TERMS_MAP: Task5/terms_map.json
+      RAG_DIST_THRESHOLD: 0.65
+      RAG_BEHAVIOR: Task5/behavior.txt
+    volumes:
+      - ../Task5:/app/Task5:ro
+      - ../index/chroma_db_infected:/app/index/chroma_db_infected

@@ -1,3 +1,4 @@
+import importlib
 import os
 import time
 import re
@@ -61,6 +62,11 @@ class RagPipeline:
 
         self.system_prompt = load_text(settings.system_prompt_path, SYSTEM_PROMPT_FALLBACK)
 
+        self.security = None
+        mod_name = os.getenv("RAG_SECURITY_MODULE")
+        if mod_name:
+            self.security = importlib.import_module(mod_name)
+
     def answer(self, question: str, use_term_translation: bool = True, use_lang_translation: bool = True) -> dict:
         t0 = time.perf_counter()
         stages = {}
@@ -96,6 +102,12 @@ class RagPipeline:
 
         result = {"translation": use_term_translation, "question": question, "internal_query": q_internal, "dist_top1": round(chunks[0]["dist"], 4),
                   "sources": sources, "stages": {k: round(v, 2) for k, v in stages.items()}}
+
+        if self.security is not None and hasattr(self.security, "filter_chunks"):
+            chunks = self.security.filter_chunks(chunks)
+            if not chunks:
+                result.update(answer=DONT_KNOW, internal_answer="filtered: no clean chunks", sources=[])
+                return result
 
         if chunks[0]["dist"] > self.settings.dist_threshold:
             result.update(answer=DONT_KNOW, internal_answer=DONT_KNOW, sources=[])
@@ -162,6 +174,12 @@ class RagPipeline:
             answer = f"Рассуждение:\n{self.translator.to_ru(reasoning)}\n\nОтвет:\n{self.translator.to_ru(ans)}"
 
         stages["postprocess"] = get_elapsed()
+
+        if self.security is not None and hasattr(self.security, "check_answer"):
+            if not self.security.check_answer(answer):
+                result.update(answer=DONT_KNOW, internal_answer=raw, sources=[])
+                return result
+
         result.update(answer=answer, sources=picked, internal_answer=raw)
         result["stages"]["total"] = round(time.perf_counter() - t0, 2)
         return result
