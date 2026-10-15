@@ -1,0 +1,24 @@
+[
+  {"q": "Who built the Stargates?", "expect": "answer"},
+  {"q": "What is DHD?", "expect": "answer"},
+  {"q": "How did Apophis die?", "expect": "answer"},
+  {"q": "What weapon do the Jaffa usually use?", "expect": "answer"},
+
+  {"q": "What is Naquadria?", "expect": "answer", "note": "new doc via auto-update"},
+  {"q": "Who built the Mini Stargate?", "expect": "answer", "note": "new doc via auto-update"},
+
+  {"q": "What do the Wraith feed on?", "expect": "answer", "note": "SGA"},
+  {"q": "What galaxy is Atlantis in?", "expect": "answer", "note": "SGA — Pegasus"},
+  {"q": "What is a Zero Point Module?", "expect": "answer", "note": "SGA"},
+  {"q": "Who is Teyla Emmagan?", "expect": "answer", "note": "SGA"},
+
+  {"q": "What is Destiny?", "expect": "answer", "note": "SGU"},
+  {"q": "Who is Nicholas Rush?", "expect": "answer", "note": "SGU"},
+  {"q": "What happened to Icarus Base?", "expect": "answer", "note": "SGU + new Naquadria doc"},
+
+  {"q": "Who is Elizabeth Weir?", "expect": "dont_know", "note": "entity removed (artificial gap)"},
+  {"q": "Who is Eli Wallace?", "expect": "dont_know", "note": "entity removed (artificial gap)"},
+  {"q": "What do the Nox eat?", "expect": "dont_know", "note": "entity removed; was a hallucination case"},
+  {"q": "What is the capital of France?", "expect": "dont_know"},
+  {"q": "What PC games based on Stargate do you know?", "expect": "dont_know", "note": "known hallucination case (at 0.65 threshold)"}
+]

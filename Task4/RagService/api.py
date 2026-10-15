@@ -1,5 +1,6 @@
 import os
 from contextlib import asynccontextmanager
+from datetime import datetime, timezone
 from pathlib import Path
 
 from fastapi import FastAPI, UploadFile, File
@@ -11,6 +12,8 @@ from rag.pipeline import RagPipeline
 from rag.stt import SpeechTranscriber
 from rag.voice import VoiceSynthesizer
 
+LOGS_DIR = Path(os.getenv("RAG_LOGS", "Task7/logs"))
+LOGS_DIR.mkdir(parents=True, exist_ok=True)
 
 class AskRequest(BaseModel):
     question: str
@@ -51,9 +54,23 @@ def health():
             "stt": stt is not None}
 
 
+def log_request(req: AskRequest, r: dict):
+    entry = {
+        "ts": datetime.now(timezone.utc).isoformat(),
+        "question": req.question,
+        "dist_top1": r["dist_top1"],
+        "answer_len": len(r["answer"]),
+        "refused": r["answer"] == "Я не знаю",
+        "sources": r["sources"],
+        "stages": r["stages"],
+    }
+    with open(LOGS_DIR / "requests.jsonl", "a", encoding="utf-8") as fh:
+        fh.write(_json.dumps(entry, ensure_ascii=False) + "\n")
+
 @app.post("/ask", response_model=AskResponse)
 def ask(req: AskRequest):
     r = pipeline.answer(req.question)
+    log_request(req, r)
     audio_url = None
     if req.voice:
         ogg = tts.synthesize(r["answer"])
