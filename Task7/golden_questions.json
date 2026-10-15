@@ -7,6 +7,7 @@
   {"q": "What is Naquadria?", "expect": "answer", "note": "new doc via auto-update"},
   {"q": "Who built the Mini Stargate?", "expect": "answer", "note": "new doc via auto-update"},
 
+  {"q": "Who is Acastus Kolya?", "expect": "dont_know", "note": "never present in KB (natural gap)"},
   {"q": "What do the Wraith feed on?", "expect": "answer", "note": "SGA"},
   {"q": "What galaxy is Atlantis in?", "expect": "answer", "note": "SGA — Pegasus"},
   {"q": "What is a Zero Point Module?", "expect": "answer", "note": "SGA"},

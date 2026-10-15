@@ -1,0 +1,71 @@
+@startuml
+
+actor "Telegram user" as U
+participant "Telegram Bot (C#)" as TG
+participant "ragservice\nPOST /ask" as API
+participant "RagPipeline" as P
+participant "TermTranslator\n(to_fiction/to_real)" as TT
+database "ChromaDB\n(chroma_db_t7)" as DB
+participant "Security hooks\n(filter_chunks/check_answer)" as SEC
+participant "Qwen2.5-3B-Instruct" as LLM
+entity "requests.jsonl" as LOG
+
+U -> TG: Text question
+TG -> API: POST /ask {question}
+activate API
+
+API -> P: answer(question)
+activate P
+
+alt Question in russian (looks_russian)
+    P -> LLM: RU to EN translation\n(chat, temperature=0)
+    LLM --> P: English question
+end
+
+P -> TT: to_fiction(question)
+TT --> P: internal query\n(Kestrels, Xanvoss...)
+P -> DB: top-k (query embedding,\nQUERY_PROMPT)
+DB --> P: chunks + dist
+
+alt security filters enabled (RAG_SECURITY_MODULE)
+    P -> SEC: filter_chunks(chunks)
+    SEC --> P: clean chunks (or [])
+    alt no chunks
+        P --> API: "Я не знаю"\n(internal: filtered)
+    end
+end
+
+alt no chunks / dist_top1 > threshold (0.45)
+    P --> API: "Я не знаю"\n(no relevant result)
+else dist_top1 <= threshold
+    P -> P: build prompt\n(template + few-shot + context)
+    P -> LLM: generate (JSON-format)
+    LLM --> P: raw output (supposed to be json)
+
+    alt JSON parsing failed
+        P -> LLM: retry (temperature=0,\nremind of output format)
+        LLM --> P: 2nd generation
+    end
+
+    P -> P: _parse_json_answer\n(raw_decode)
+
+    alt entity not found / answer is empty
+        P --> API: "Я не знаю"\n(parse fail)
+    else answer retrieved
+        P -> TT: to_real(answer)\n+ translation reasoning/answer (RU)
+        alt apply security filters (check_answer)
+            P --> API: "Я не знаю"\n(blocked by filter)
+        else
+            P --> API: Reasoning + Answer + sources
+        end
+    end
+end
+
+deactivate P
+
+API -> LOG: append JSONL\n(ts, question, dist, refused, sources)
+API --> TG: AskResponse JSON
+deactivate API
+TG --> U: response message
+
+@enduml

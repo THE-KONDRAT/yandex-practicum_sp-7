@@ -1,0 +1,201 @@
+{
+  "total": 19,
+  "passed": 18,
+  "accuracy": 0.947,
+  "results": [
+    {
+      "q": "Who built the Stargates?",
+      "expect": "answer",
+      "passed": true,
+      "dist_top1": 0.2827,
+      "sources": [
+        "Stargate"
+      ],
+      "answer_head": "Reasoning:\nFrom Fragment 1 we learn that Stargates are built by the Ancient. From Fragment 4 we find out that the origin"
+    },
+    {
+      "q": "What is DHD?",
+      "expect": "answer",
+      "passed": true,
+      "dist_top1": 0.2469,
+      "sources": [
+        "Dial Home Device",
+        "Stargate"
+      ],
+      "answer_head": "Reasoning:\nFragment 5 defines Lorthars as 'large, pedestal-shaped computers', while Fragment 4 provides more detail on h"
+    },
+    {
+      "q": "How did Apophis die?",
+      "expect": "answer",
+      "passed": true,
+      "dist_top1": 0.2578,
+      "sources": [
+        "Apophis"
+      ],
+      "answer_head": "Reasoning:\nFrom Fragment 5 we learn that Apophis died in 2001 due to his ship crashing into his home planet Delmak in th"
+    },
+    {
+      "q": "What weapon do the Jaffa usually use?",
+      "expect": "answer",
+      "passed": false,
+      "dist_top1": 0.2183,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What is Naquadria?",
+      "expect": "answer",
+      "note": "new doc via auto-update",
+      "passed": true,
+      "dist_top1": 0.3184,
+      "sources": [
+        "naquadria_raw"
+      ],
+      "answer_head": "Reasoning:\nFragment 1 defines Naquadria as a highly unstable radioactive isotope of Naquadah with unstable radioactive p"
+    },
+    {
+      "q": "Who built the Mini Stargate?",
+      "expect": "answer",
+      "note": "new doc via auto-update",
+      "passed": true,
+      "dist_top1": 0.3691,
+      "sources": [
+        "Stargate"
+      ],
+      "answer_head": "Reasoning:\nFrom Fragment 2 we learn that Orlin, an outcast Ancient, built a mini-Stargate in Major Samantha Carter's bas"
+    },
+    {
+      "q": "Who is Acastus Kolya?",
+      "expect": "dont_know",
+      "note": "never present in KB (natural gap)",
+      "passed": true,
+      "dist_top1": 0.5155,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What do the Wraith feed on?",
+      "expect": "answer",
+      "note": "SGA",
+      "passed": true,
+      "dist_top1": 0.1863,
+      "sources": [
+        "Wraith"
+      ],
+      "answer_head": "Reasoning:\nFragment 5 mentions that Wraith can consume human food and drinks, which provides a partial answer, but does "
+    },
+    {
+      "q": "What galaxy is Atlantis in?",
+      "expect": "answer",
+      "note": "SGA — Pegasus",
+      "passed": true,
+      "dist_top1": 0.3404,
+      "sources": [
+        "Atlantis",
+        "Wraith"
+      ],
+      "answer_head": "Reasoning:\nThe user asks for the galaxy where Atlantis is located. Fragment 2 mentions 'Milky Way galaxy' and fragment 3"
+    },
+    {
+      "q": "What is a Zero Point Module?",
+      "expect": "answer",
+      "note": "SGA",
+      "passed": true,
+      "dist_top1": 0.1963,
+      "sources": [
+        "Zero Point Module"
+      ],
+      "answer_head": "Reasoning:\nFragment 2 defines a Zero Point Module as a power source created by the Ancient, and Fragment 3 mentions that"
+    },
+    {
+      "q": "Who is Teyla Emmagan?",
+      "expect": "answer",
+      "note": "SGA",
+      "passed": true,
+      "dist_top1": 0.3185,
+      "sources": [
+        "Teyla Emmagan",
+        "John Sheppard"
+      ],
+      "answer_head": "Reasoning:\nTeyla Emmagan is mentioned in Fragment 1 and Fragment 4. In Fragment 1, it says 'Teyla Emmagan is the leader "
+    },
+    {
+      "q": "What is Destiny?",
+      "expect": "answer",
+      "note": "SGU",
+      "passed": true,
+      "dist_top1": 0.1836,
+      "sources": [
+        "Destiny"
+      ],
+      "answer_head": "Reasoning:\nThe user asks for a description of what Destiny is.\n\nAnswer:\nDestiny is described as a device with multiple c"
+    },
+    {
+      "q": "Who is Nicholas Rush?",
+      "expect": "answer",
+      "note": "SGU",
+      "passed": true,
+      "dist_top1": 0.2852,
+      "sources": [
+        "Nicholas Rush"
+      ],
+      "answer_head": "Reasoning:\nFrom Fragment 1 we learn that Nicholas Rush was born into a poor family and worked multiple jobs while earnin"
+    },
+    {
+      "q": "What happened to Icarus Base?",
+      "expect": "answer",
+      "note": "SGU + new Naquadria doc",
+      "passed": true,
+      "dist_top1": 0.3465,
+      "sources": [
+        "George Hammond",
+        "Goa'uld"
+      ],
+      "answer_head": "Reasoning:\nIn Fragment 2, we learn that Icarus Base was attacked by three ships, specifically mentioning the George Hamm"
+    },
+    {
+      "q": "Who is Elizabeth Weir?",
+      "expect": "dont_know",
+      "note": "entity removed (artificial gap)",
+      "passed": true,
+      "dist_top1": 0.4746,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "Who is Eli Wallace?",
+      "expect": "dont_know",
+      "note": "entity removed (artificial gap)",
+      "passed": true,
+      "dist_top1": 0.4581,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What do the Nox eat?",
+      "expect": "dont_know",
+      "note": "entity removed; was a hallucination case",
+      "passed": true,
+      "dist_top1": 0.4818,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What is the capital of France?",
+      "expect": "dont_know",
+      "passed": true,
+      "dist_top1": 0.6168,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What PC games based on Stargate do you know?",
+      "expect": "dont_know",
+      "note": "known hallucination case (at 0.65 threshold)",
+      "passed": true,
+      "dist_top1": 0.4092,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ services:
       RAG_TERMS_MAP: Task7/terms_map.json
       RAG_KB_DIR: Task7/knowledge_base
       RAG_LOGS: Task7/logs
+      RAG_CONTEXT_CHUNKS: 5
     volumes:
       - ../Task7:/app/Task7:ro
       - ../Task7/index:/app/Task7/index
@@ -25,4 +26,12 @@ services:
       RAG_UPDATE_LOG: Task7/update.log
     volumes:
       - ../Task2:/app/Task2:ro
+      - ../Task6:/app/Task6:ro
       - ../Task7:/app/Task7
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
