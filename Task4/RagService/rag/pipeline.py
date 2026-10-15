@@ -34,13 +34,16 @@ def _parse_json_answer(text: str) -> dict | None:
     text = text.strip()
     text = re.sub(r"^```(?:json)?|```$", "", text, flags=re.M).strip()
     start = text.find("{")
-    if start < 0:
-        return None
-    try:
-        obj, _ = json.JSONDecoder().raw_decode(text[start:])
-    except json.JSONDecodeError:
-        return None
-    return obj if isinstance(obj, dict) else None
+    while start != -1:
+        try:
+            obj, _ = json.JSONDecoder().raw_decode(text[start:])
+        except json.JSONDecodeError:
+            start = text.find("{", start + 1)
+            continue
+        if isinstance(obj, dict) and "answer" in obj:
+            return obj
+        start = text.find("{", start + 1)
+    return None
 
 def _answer_is_empty(text: str) -> bool:
     m = re.search(r"(?:Answer|Ответ):\s*(.*)$", text, re.S)

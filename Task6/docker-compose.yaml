@@ -11,8 +11,9 @@ services:
       RAG_CHROMA_DIR: Task6/index/chroma_db_v2
       RAG_STATE_FILE: Task6/index/chroma_db_v2/update_state.json
     volumes:
+      - ../Task2:/app/Task2:ro
       - ../Task6:/app/Task6
-      - ../Task6/knowledge_base:/app/Task6/knowledge_base:ro
+      - ../Task6/knowledge_base:/app/Task6/knowledge_base
       - ../Task6/index:/app/Task6/index
     deploy:
       resources:

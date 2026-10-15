@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import sys
+import subprocess
 import time
 from pathlib import Path
 
@@ -14,6 +15,12 @@ DB_DIR = Path(os.getenv("RAG_CHROMA_DIR", "index/chroma_db"))
 COLLECTION = os.getenv("RAG_COLLECTION", "knowledge_base")
 STATE_FILE = Path(os.getenv("RAG_STATE_FILE", str(DB_DIR / "update_state.json")))
 LOG_FILE = Path(os.getenv("RAG_UPDATE_LOG", "Task6/update.log"))
+
+INGEST_DIR = Path(os.getenv("RAG_INGEST_DIR", "Task6/raw_new"))
+APPLY_TERMS = os.getenv("RAG_APPLY_TERMS", "Task2/apply_terms.py")
+TERMS_OUT = os.getenv("RAG_TERMS_MAP", "Task6/terms_map.json")
+SEED = os.getenv("RAG_SEED", "Task2/terms_seed.json")
+PROCESSED_DIR = INGEST_DIR / "processed"
 
 CHUNK_SIZE, CHUNK_OVERLAP = 500, 100
 BATCH = 32
@@ -49,6 +56,32 @@ def chunk_file(text: str, source: str, title: str) -> tuple[list, list, list]:
         metas.append({"source": source, "title": title, "chunk_id": i, "total_chunks": len(pieces)})
     return ids, docs, metas
 
+def ingest_new_files() -> int:
+    if not INGEST_DIR.exists():
+        return 0
+    raw_files = sorted(p for p in INGEST_DIR.glob("*.txt"))
+    if not raw_files:
+        return 0
+
+    man_path = INGEST_DIR / "manifest.json"
+    man = json.loads(man_path.read_text(encoding="utf-8")) if man_path.exists() else {}
+    known = set(man.values())
+    for p in raw_files:
+        if p.name not in known:
+            man[p.stem] = p.name
+    man_path.write_text(json.dumps(man, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    r = subprocess.run([sys.executable, APPLY_TERMS, "--raw-dir", str(INGEST_DIR), "--out-dir", str(KB_DIR),
+                        "--terms-out", TERMS_OUT, "--seed", SEED, "--no-clear"], capture_output=True, text=True)
+    if r.returncode != 0:
+        raise RuntimeError(f"apply_terms failed: {r.stderr[-500:]}")
+    log.info("apply_terms:\n%s", r.stdout.strip().splitlines()[-1] if r.stdout else "ok")
+
+    PROCESSED_DIR.mkdir(exist_ok=True)
+    for p in raw_files:
+        p.replace(PROCESSED_DIR / p.name)
+    return len(raw_files)
+
 
 def main() -> int:
     t0 = time.perf_counter()
@@ -61,6 +94,10 @@ def main() -> int:
         return 0
 
     try:
+        n_ingested = ingest_new_files()
+        if n_ingested:
+            log.info("ingested %d new raw files from %s", n_ingested, INGEST_DIR)
+
         manifest = json.loads((KB_DIR / "manifest.json").read_text(encoding="utf-8"))
         title_by_file = {v: k for k, v in manifest.items()}
         state = load_state()

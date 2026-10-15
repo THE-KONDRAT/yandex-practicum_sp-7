@@ -1,16 +1,35 @@
 @startuml
-folder "Источник данных\nknowledge_base/ (docs/)" as SRC
-node "indexer (cron-контейнер)\n0 6 * * * update_index.py" as CRON
-node "ragservice\n(FastAPI + RAG)" as BOT
-database "ChromaDB\nindex/chroma_db" as DB
-file "update.log" as LOG
-file "update_state.json" as ST
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-CRON --> SRC : сканирование\n(mtime+size vs state)
-CRON --> CRON : разбиение на чанки\n(RecursiveCharacterTextSplitter)
-CRON --> CRON : генерация эмбеддингов\n(Qwen3-Embedding-0.6B)
-CRON --> DB : delete(source)→add (upsert)
-CRON --> LOG
-CRON --> ST : новое состояние
-BOT --> DB : поиск (runtime)
+Person(admin, "Administrator")
+Person(tguser, "Telegram user")
+Person(apiuser, "REST API user")
+
+System_Boundary(pipeline, "Knowledge base pipeline") {
+    Container(indexer, "indexer", "Docker-container, cron", "04:00 daily: update_index")
+    Container(at, "data transformer", "apply_terms.py", "Cleans raw data, converts terms, stores transformed data into knowledge base directory")
+    Container(bot, "ragservice", "FastAPI", "RAG-бот (Qwen3-Embedding-0.6B + Qwen2.5-3B)")
+    Container(tgbot, "Telegram Bot", "C#", "Proxy service for telegram-бота")
+    ContainerDb(chroma, "ChromaDB", "index/chroma_db_v2", "Vector DB")
+    ContainerDb(log, "Log", "update.log", "text file")
+    ContainerDb(state, "Raw docs index state", "update_state.json", "json file")
+    Container(storage, "Raw files storage", "Task6/", "raw_new/, raw_new/processed/")
+    Container(kb, "Knowledge base file storage", "Task6/", "knowledge_base/")
+}
+
+Rel(admin, storage, "places new document into Task6/raw_new/", "file")
+Rel(indexer, storage, "scan")
+Rel(indexer, at, "executes", "subprocess apply_terms")
+Rel(indexer, log, "append log")
+Rel(indexer, state, "save new state")
+Rel(at, kb, "writes transformed docs")
+Rel(indexer, kb, "scan docs")
+Rel(indexer, chroma, "delete, add", "upsert chunks")
+Rel(bot, chroma, "search", "query → top-k chunks, filters if enabled")
+Rel(tgbot, bot, "search", "REST API")
+
+Rel(tguser, tgbot, "asks questions", "Telegram API / Web / App")
+Rel(apiuser, bot, "asks questions", "REST API")
+
+SHOW_LEGEND()
 @enduml

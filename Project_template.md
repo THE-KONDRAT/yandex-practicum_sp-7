@@ -557,6 +557,7 @@ Sources:
 
 
 # Задание 6. Автоматическое ежедневное обновление базы знаний
+Описание процесса развёртывания сервисов и обновления базы знаний приведено в [README](Task6/README.md)
 
 Задача запускается cron внутри контейнера `indexer` (Task6/indexer.cron) ежедневно в 04:00.
 
@@ -569,5 +570,31 @@ TODO: диаграмма
 
 Пример лога:
 ```shell
+2026-10-14 23:27:21,949 INFO apply_terms:
+Transformation done: 1 docs in Task6/knowledge_base/
+2026-10-14 23:27:21,958 INFO ingested 1 new raw files from Task6/raw_new
+2026-10-14 23:27:22,011 INFO scan: 41 files, added=['naquadria_raw.txt'] changed=[] deleted=[]
+...
+2026-10-14 23:28:32,379 INFO Loaded 1 prompt with these keys: ['query']
+2026-10-14 23:28:35,654 INFO indexed naquadria_raw.txt: 26 chunks
+2026-10-14 23:28:35,680 INFO update finished in 73.9s: 26 new chunks, index size=3367, errors=0
 
 ```
+
+Поведение до и после добавления нового файла:
+```plain
+Я: What is Naquadria?
+TestBot: Я не знаю
+... был добавлен файл ...
+Я: What is Naquadria?
+TestBot: Reasoning:
+Fragment 1 provides details about Naquadria being a denser but less stable isotope of Naquadah discovered on Kelowna. Fragment 2 explains that Naquadria has highly unstable radioactive properties and can emit pulses of energy much stronger than weapons-grade Naquadah. Fragment 5 discusses how Naquadria was created by Thanos on Kelowna through converting raw Naquadah into Naquadria.
+
+Answer:
+Naquadria is a denser but less stable isotope of Naquadah discovered on Kelowna. It has highly unstable radioactive properties and can emit pulses of energy much stronger than weapons-grade Naquadah. According to Fragment 5, Naquadria was created by Thanos on Kelowna through converting raw Naquadah into Naquadria.
+
+Sources:
+ — naquadria_raw
+ ```
+[](Task6/architecture.puml)
+
