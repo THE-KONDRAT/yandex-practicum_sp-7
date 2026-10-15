@@ -1,0 +1,14 @@
+[
+  {
+    "q": "Who built the Stargates?",
+    "a": "{\"reasoning\": \"Fragment 1 states that Stargates are devices built by the Ancients.\", \"answer\": \"The Stargates were built by the Ancients.\", \"sources\": [1]}"
+  },
+  {
+    "q": "How does the Zero Point Module work?",
+    "a": "{\"reasoning\": \"The fragment describes the Zero Point Module as orange crystals extracting zero-point energy from subspace.\", \"answer\": \"The Zero Point Module extracts zero-point energy from subspace and outputs it as electrical power.\", \"sources\": [1]}"
+  },
+  {
+    "q": "What is the capital of France?",
+    "a": "{\"reasoning\": \"The context does not contain any information about the capital of France.\", \"answer\": \"Я не знаю\", \"sources\": []}"
+  }
+]

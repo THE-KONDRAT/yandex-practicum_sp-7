@@ -1,0 +1,37 @@
+services:
+  ragservice:
+    environment:
+      RAG_CHROMA_DIR: Task7/index/chroma_db_t7
+      RAG_TERMS_MAP: Task7/terms_map.json
+      RAG_KB_DIR: Task7/knowledge_base
+      RAG_LOGS: Task7/logs
+      RAG_CONTEXT_CHUNKS: 5
+    volumes:
+      - ../Task7:/app/Task7:ro
+      - ../Task7/index:/app/Task7/index
+      - ../Task7/knowledge_base:/app/Task7/knowledge_base:ro
+      - ../Task7/logs:/app/Task7/logs
+  indexer:
+    build:
+      context: ..
+      dockerfile: Task6/Dockerfile
+    depends_on:
+      ragservice:
+        condition: service_healthy
+    environment:
+      RAG_KB_DIR: Task7/knowledge_base
+      RAG_CHROMA_DIR: Task7/index/chroma_db_t7
+      RAG_STATE_FILE: Task7/index/chroma_db_t7/update_state.json
+      RAG_TERMS_MAP: Task7/terms_map.json
+      RAG_UPDATE_LOG: Task7/update.log
+    volumes:
+      - ../Task2:/app/Task2:ro
+      - ../Task6:/app/Task6:ro
+      - ../Task7:/app/Task7
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]

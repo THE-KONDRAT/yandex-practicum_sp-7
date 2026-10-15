@@ -1,0 +1,52 @@
+services:
+  ragservice:
+    build:
+      context: ..
+      dockerfile: Task4/RagService/Dockerfile
+    environment:
+      RAG_DEVICE: cuda
+      RAG_DTYPE_EMBED: float32
+      RAG_DTYPE_LLM: float16
+      RAG_CONTEXT_CHUNKS: 5
+      RAG_TEMPERATURE: 0.12
+      RAG_TTS: piper
+      RAG_PIPER_MODEL: /app/models/en_US-lessac-medium.onnx
+      RAG_STT_MODEL: base
+      RAG_TRANSLATION_ENABLE: "true"
+    ports:
+      - "8088:8000"
+    volumes:
+      - hf-cache:/app/.hf-cache
+      - ./models:/app/models:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/health')" ]
+      interval: 15s
+      timeout: 5s
+      retries: 60
+      start_period: 1200s
+
+  telegrambot:
+    build:
+      context: TelegramBot
+      dockerfile: TelegramBot/Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8089:8000"
+    environment:
+      Bot__TgBotToken: ${TG_BOT_TOKEN}
+      Bot__RagUrlBase: http://ragservice:8000
+      NO_PROXY: ragservice,localhost,127.0.0.1
+    depends_on:
+      ragservice:
+        condition: service_healthy
+
+volumes:
+  hf-cache:

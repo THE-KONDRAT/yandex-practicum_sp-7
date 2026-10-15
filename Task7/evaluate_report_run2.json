@@ -1,0 +1,203 @@
+{
+  "total": 19,
+  "passed": 19,
+  "accuracy": 1.0,
+  "results": [
+    {
+      "q": "Who built the Stargates?",
+      "expect": "answer",
+      "passed": true,
+      "dist_top1": 0.2827,
+      "sources": [
+        "Stargate",
+        "Destiny"
+      ],
+      "answer_head": "Reasoning:\nFrom Fragment 1 we learn that Stargates are built by the Ancient. From Fragment 4, we know that the original "
+    },
+    {
+      "q": "What is DHD?",
+      "expect": "answer",
+      "passed": true,
+      "dist_top1": 0.2469,
+      "sources": [
+        "Dial Home Device"
+      ],
+      "answer_head": "Reasoning:\nLorthars are described as being large, pedestal-shaped computers located on planets in the Stargate Network. "
+    },
+    {
+      "q": "How did Apophis die?",
+      "expect": "answer",
+      "passed": true,
+      "dist_top1": 0.2578,
+      "sources": [
+        "Apophis"
+      ],
+      "answer_head": "Reasoning:\nFrom Fragment 5 we learn that Apophis died in 2001 due to his ship crashing into his home planet Delmak in th"
+    },
+    {
+      "q": "What weapon do the Jaffa usually use?",
+      "expect": "answer",
+      "passed": true,
+      "dist_top1": 0.2183,
+      "sources": [
+        "Jaffa"
+      ],
+      "answer_head": "Reasoning:\nFragment 2 mentions Jaffa as a society of warriors, implying they might carry various types of weaponry, but "
+    },
+    {
+      "q": "What is Naquadria?",
+      "expect": "answer",
+      "note": "new doc via auto-update",
+      "passed": true,
+      "dist_top1": 0.3184,
+      "sources": [
+        "naquadria_raw"
+      ],
+      "answer_head": "Reasoning:\nFragment 1 mentions that Naquadria is a mineral substance discovered on Kelowna, while Fragment 5 indicates i"
+    },
+    {
+      "q": "Who built the Mini Stargate?",
+      "expect": "answer",
+      "note": "new doc via auto-update",
+      "passed": true,
+      "dist_top1": 0.3691,
+      "sources": [
+        "Stargate"
+      ],
+      "answer_head": "Reasoning:\nFragment 2 mentions that Orlin, a descendant of the Ancient, built a mini-Stargate in Major Samantha Carter's"
+    },
+    {
+      "q": "Who is Acastus Kolya?",
+      "expect": "dont_know",
+      "note": "never present in KB (natural gap)",
+      "passed": true,
+      "dist_top1": 0.5155,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What do the Wraith feed on?",
+      "expect": "answer",
+      "note": "SGA",
+      "passed": true,
+      "dist_top1": 0.1863,
+      "sources": [
+        "Wraith"
+      ],
+      "answer_head": "Reasoning:\nFragment 5 mentions that Wraith can consume human foods and drinks while still young, which provides part of "
+    },
+    {
+      "q": "What galaxy is Atlantis in?",
+      "expect": "answer",
+      "note": "SGA — Pegasus",
+      "passed": true,
+      "dist_top1": 0.3404,
+      "sources": [
+        "Atlantis"
+      ],
+      "answer_head": "Reasoning:\nFragment 2 mentions that Atlantis was brought to the Milky Way galaxy where it was infused with genetic mater"
+    },
+    {
+      "q": "What is a Zero Point Module?",
+      "expect": "answer",
+      "note": "SGA",
+      "passed": true,
+      "dist_top1": 0.1963,
+      "sources": [
+        "Zero Point Module"
+      ],
+      "answer_head": "Reasoning:\nFragment 2 defines a Zero Point Module as a power source created by the Ancient, and Fragment 3 mentions that"
+    },
+    {
+      "q": "Who is Teyla Emmagan?",
+      "expect": "answer",
+      "note": "SGA",
+      "passed": true,
+      "dist_top1": 0.3185,
+      "sources": [
+        "Teyla Emmagan"
+      ],
+      "answer_head": "Reasoning:\nFrom Fragment 1 we learn that Teyla Emmagan is the leader of the Athosians from the planet Athos, and was one"
+    },
+    {
+      "q": "What is Destiny?",
+      "expect": "answer",
+      "note": "SGU",
+      "passed": true,
+      "dist_top1": 0.1836,
+      "sources": [
+        "Destiny"
+      ],
+      "answer_head": "Reasoning:\nDestiny is described as having various technologies such as Stargates, Shuttles, Energy weapons, Faster-Than-"
+    },
+    {
+      "q": "Who is Nicholas Rush?",
+      "expect": "answer",
+      "note": "SGU",
+      "passed": true,
+      "dist_top1": 0.2852,
+      "sources": [
+        "Nicholas Rush",
+        "Everett Young"
+      ],
+      "answer_head": "Reasoning:\nFrom Fragment 1 we learn that Nicholas Rush was born into a poor family and worked multiple jobs until earnin"
+    },
+    {
+      "q": "What happened to Icarus Base?",
+      "expect": "answer",
+      "note": "SGU + new Naquadria doc",
+      "passed": true,
+      "dist_top1": 0.3465,
+      "sources": [
+        "George Hammond",
+        "Goa'uld",
+        "Nicholas Rush"
+      ],
+      "answer_head": "Reasoning:\nBased on Fragment 2, the attack involved three ships - the George Hammond, the Abydonian Stargate, and possib"
+    },
+    {
+      "q": "Who is Elizabeth Weir?",
+      "expect": "dont_know",
+      "note": "entity removed (artificial gap)",
+      "passed": true,
+      "dist_top1": 0.4746,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "Who is Eli Wallace?",
+      "expect": "dont_know",
+      "note": "entity removed (artificial gap)",
+      "passed": true,
+      "dist_top1": 0.4581,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What do the Nox eat?",
+      "expect": "dont_know",
+      "note": "entity removed; was a hallucination case",
+      "passed": true,
+      "dist_top1": 0.4818,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What is the capital of France?",
+      "expect": "dont_know",
+      "passed": true,
+      "dist_top1": 0.6168,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    },
+    {
+      "q": "What PC games based on Stargate do you know?",
+      "expect": "dont_know",
+      "note": "known hallucination case (at 0.65 threshold)",
+      "passed": true,
+      "dist_top1": 0.4092,
+      "sources": [],
+      "answer_head": "Я не знаю"
+    }
+  ]
+}

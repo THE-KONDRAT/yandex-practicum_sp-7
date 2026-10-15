@@ -1,0 +1,37 @@
+services:
+  indexer:
+    build:
+      context: ..
+      dockerfile: Task6/Dockerfile
+    depends_on:
+      ragservice:
+        condition: service_healthy
+    environment:
+      RAG_KB_DIR: Task6/knowledge_base
+      RAG_CHROMA_DIR: Task6/index/chroma_db_v2
+      RAG_STATE_FILE: Task6/index/chroma_db_v2/update_state.json
+    volumes:
+      - ../Task2:/app/Task2:ro
+      - ../Task6:/app/Task6
+      - ../Task6/knowledge_base:/app/Task6/knowledge_base
+      - ../Task6/index:/app/Task6/index
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+
+  ragservice:
+    environment:
+      RAG_CHROMA_DIR: Task6/index/chroma_db_v2
+      RAG_TERMS_MAP: Task6/terms_map.json
+      RAG_KB_DIR: Task6/knowledge_base
+      RAG_SECURITY_MODULE: Task5.security_hooks
+      RAG_BEHAVIOR: Task5/behavior.txt
+    volumes:
+      - ../Task6:/app/Task6:ro
+      - ../Task6/index:/app/Task6/index
+      - ../Task6/knowledge_base:/app/Task6/knowledge_base:ro
+      - ../Task5:/app/Task5:ro
